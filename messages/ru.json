@@ -28,8 +28,8 @@
     "inAppBrowserTitle": "Откройте во внешнем браузере",
     "inAppBrowserNotSupported": "Встроенные браузеры не поддерживают интеграцию с  Wallet.",
     "successDrawerTitle": "Визитка готова!",
-    "successDrawerDescription": "Откройте  Wallet, чтобы увидеть новую визитку.",
-    "successDrawerOpen": "Открыть  Wallet",
+    "successDrawerDescription": "Откройте APPLE_LOGO Wallet, чтобы увидеть новую визитку.",
+    "successDrawerOpen": "Открыть APPLE_LOGO Wallet",
     "successDrawerDone": "Готово"
   },
   "setDefault": {

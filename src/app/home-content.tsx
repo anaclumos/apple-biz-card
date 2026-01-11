@@ -250,10 +250,10 @@ function HomeContentInner({ defaultPlace }: HomeContentInnerProps) {
         <div className="flex items-start justify-between">
           <div className="space-y-2">
             <h1 className="font-bold text-4xl text-foreground-light tracking-tight">
-              {t("title")}
+              {withAppleLogo(t("title"))}
             </h1>
             <p className="font-medium text-foreground text-lg opacity-90">
-              {t("description")}
+              {withAppleLogo(t("description"))}
             </p>
           </div>
           <LanguageSwitcher />

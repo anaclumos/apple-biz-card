@@ -28,8 +28,8 @@
     "inAppBrowserTitle": "Por favor, abre en un navegador externo",
     "inAppBrowserNotSupported": "Los navegadores integrados no admiten la integración con  Wallet.",
     "successDrawerTitle": "¡Tarjeta lista!",
-    "successDrawerDescription": "Abre  Wallet para ver tu nueva tarjeta.",
-    "successDrawerOpen": "Abrir  Wallet",
+    "successDrawerDescription": "Abre APPLE_LOGO Wallet para ver tu nueva tarjeta.",
+    "successDrawerOpen": "Abrir APPLE_LOGO Wallet",
     "successDrawerDone": "Listo"
   },
   "setDefault": {

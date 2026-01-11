@@ -28,8 +28,8 @@
     "inAppBrowserTitle": "Please open in external browser",
     "inAppBrowserNotSupported": "In-app browsers do not support APPLE_LOGO Wallet integration.",
     "successDrawerTitle": "Card Ready!",
-    "successDrawerDescription": "Open your Wallet app to see your new card.",
-    "successDrawerOpen": "Open Wallet",
+    "successDrawerDescription": "Open APPLE_LOGO Wallet to see your new card.",
+    "successDrawerOpen": "Open APPLE_LOGO Wallet",
     "successDrawerDone": "Done"
   },
   "setDefault": {

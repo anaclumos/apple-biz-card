@@ -28,8 +28,8 @@
     "inAppBrowserTitle": "외부 브라우저로 열어주세요",
     "inAppBrowserNotSupported": "인앱 브라우저에서는 APPLE_LOGO Wallet 연동을 지원하지 않습니다.",
     "successDrawerTitle": "명함 준비 완료!",
-    "successDrawerDescription": "지갑 앱을 열어 새 명함을 확인하세요.",
-    "successDrawerOpen": "지갑 열기",
+    "successDrawerDescription": "APPLE_LOGO Wallet을 열어 새 명함을 확인하세요.",
+    "successDrawerOpen": "APPLE_LOGO Wallet 열기",
     "successDrawerDone": "완료"
   },
   "setDefault": {

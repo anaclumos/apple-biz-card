@@ -28,8 +28,8 @@
     "inAppBrowserTitle": "請在外部瀏覽器中開啟",
     "inAppBrowserNotSupported": "應用程式內瀏覽器不支援 Wallet整合。",
     "successDrawerTitle": "名片準備就緒！",
-    "successDrawerDescription": "開啟  Wallet 查看您的新名片。",
-    "successDrawerOpen": "開啟  Wallet",
+    "successDrawerDescription": "開啟 APPLE_LOGO Wallet 查看您的新名片。",
+    "successDrawerOpen": "開啟 APPLE_LOGO Wallet",
     "successDrawerDone": "完成"
   },
   "setDefault": {

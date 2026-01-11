@@ -28,8 +28,8 @@
     "inAppBrowserTitle": "Per favore, apri in un browser esterno",
     "inAppBrowserNotSupported": "I browser integrati non supportano l'integrazione con  Wallet.",
     "successDrawerTitle": "Biglietto pronto!",
-    "successDrawerDescription": "Apri  Wallet per vedere il tuo nuovo biglietto.",
-    "successDrawerOpen": "Apri  Wallet",
+    "successDrawerDescription": "Apri APPLE_LOGO Wallet per vedere il tuo nuovo biglietto.",
+    "successDrawerOpen": "Apri APPLE_LOGO Wallet",
     "successDrawerDone": "Fatto"
   },
   "setDefault": {

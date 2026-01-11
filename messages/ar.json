@@ -28,8 +28,8 @@
     "inAppBrowserTitle": "يرجى الفتح في متصفح خارجي",
     "inAppBrowserNotSupported": "المتصفحات المدمجة لا تدعم تكامل  Wallet.",
     "successDrawerTitle": "البطاقة جاهزة!",
-    "successDrawerDescription": "افتح  Wallet لرؤية بطاقتك الجديدة.",
-    "successDrawerOpen": "فتح  Wallet",
+    "successDrawerDescription": "افتح APPLE_LOGO Wallet لرؤية بطاقتك الجديدة.",
+    "successDrawerOpen": "فتح APPLE_LOGO Wallet",
     "successDrawerDone": "تم"
   },
   "setDefault": {

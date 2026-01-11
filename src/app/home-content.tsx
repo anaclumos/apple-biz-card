@@ -445,7 +445,9 @@ function HomeContentInner({ defaultPlace }: HomeContentInnerProps) {
             <DrawerTitle className="text-2xl">
               {t("successDrawerTitle")}
             </DrawerTitle>
-            <p className="text-foreground">{t("successDrawerDescription")}</p>
+            <p className="text-foreground">
+              {withAppleLogo(t("successDrawerDescription"))}
+            </p>
           </DrawerHeader>
           <div className="flex flex-col gap-3 p-6 pt-2">
             {isIOS() && (
@@ -453,7 +455,7 @@ function HomeContentInner({ defaultPlace }: HomeContentInnerProps) {
                 className="h-14 w-full rounded-xl text-lg"
                 onClick={handleOpenWallet}
               >
-                {t("successDrawerOpen")}
+                {withAppleLogo(t("successDrawerOpen"))}
               </Button>
             )}
             <Button

@@ -1,9 +1,8 @@
 import "server-only";
-import { drizzle } from "drizzle-orm/postgres-js";
-import postgres from "postgres";
+import { drizzle } from "drizzle-orm/node-postgres";
 import { env } from "@/env";
 import { defaultPlaces, visitors } from "./schema";
 
-const client = postgres(env.DATABASE_URL, { prepare: false });
-
-export const db = drizzle(client, { schema: { visitors, defaultPlaces } });
+export const db = drizzle(env.DATABASE_URL, {
+  schema: { visitors, defaultPlaces },
+});

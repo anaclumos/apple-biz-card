@@ -11,4 +11,5 @@ export default defineConfig({
   dbCredentials: {
     url: process.env.DATABASE_URL,
   },
+  schemaFilter: ["apple_biz_card"],
 });

@@ -1,12 +1,64 @@
 {
-  "id": "fb0f6d15-20de-48c5-a10b-da328d8d54cf",
+  "id": "628b1d14-979c-4fd1-9aa3-57361b29cf86",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "7",
   "dialect": "postgresql",
   "tables": {
-    "public.visitors": {
+    "apple_biz_card.default_places": {
+      "name": "default_places",
+      "schema": "apple_biz_card",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "event_date": {
+          "name": "event_date",
+          "type": "date",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "place": {
+          "name": "place",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "created_at": {
+          "name": "created_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        },
+        "updated_at": {
+          "name": "updated_at",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "default": "now()"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {
+        "default_places_event_date_unique": {
+          "name": "default_places_event_date_unique",
+          "nullsNotDistinct": false,
+          "columns": ["event_date"]
+        }
+      },
+      "policies": {},
+      "checkConstraints": {},
+      "isRLSEnabled": false
+    },
+    "apple_biz_card.visitors": {
       "name": "visitors",
-      "schema": "",
+      "schema": "apple_biz_card",
       "columns": {
         "id": {
           "name": "id",
@@ -70,7 +122,9 @@
     }
   },
   "enums": {},
-  "schemas": {},
+  "schemas": {
+    "apple_biz_card": "apple_biz_card"
+  },
   "sequences": {},
   "roles": {},
   "policies": {},

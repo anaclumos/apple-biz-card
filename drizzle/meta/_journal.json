@@ -5,15 +5,8 @@
     {
       "idx": 0,
       "version": "7",
-      "when": 1766733429367,
-      "tag": "0000_great_screwball",
-      "breakpoints": true
-    },
-    {
-      "idx": 1,
-      "version": "7",
-      "when": 1768019480294,
-      "tag": "0001_luxuriant_mandarin",
+      "when": 1768137280768,
+      "tag": "0000_init",
       "breakpoints": true
     }
   ]

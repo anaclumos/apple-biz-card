@@ -1,6 +1,8 @@
-import { date, pgTable, text, timestamp, uuid } from "drizzle-orm/pg-core";
+import { date, pgSchema, text, timestamp, uuid } from "drizzle-orm/pg-core";
 
-export const visitors = pgTable("visitors", {
+export const appleBizCard = pgSchema("apple_biz_card");
+
+export const visitors = appleBizCard.table("visitors", {
   id: uuid("id").defaultRandom().primaryKey(),
   name: text("name").notNull(),
   phone: text("phone").notNull(),
@@ -13,7 +15,7 @@ export const visitors = pgTable("visitors", {
 export type Visitor = typeof visitors.$inferSelect;
 export type NewVisitor = typeof visitors.$inferInsert;
 
-export const defaultPlaces = pgTable("default_places", {
+export const defaultPlaces = appleBizCard.table("default_places", {
   id: uuid("id").defaultRandom().primaryKey(),
   eventDate: date("event_date").notNull().unique(),
   place: text("place").notNull(),

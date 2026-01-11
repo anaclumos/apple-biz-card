@@ -12,4 +12,8 @@ export default defineConfig({
     url: process.env.DATABASE_URL,
   },
   schemaFilter: ["apple_biz_card"],
+  migrations: {
+    schema: "apple_biz_card",
+    table: "__drizzle_migrations",
+  },
 });

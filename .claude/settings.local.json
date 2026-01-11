@@ -1,6 +1,12 @@
 {
   "permissions": {
-    "allow": ["Bash(lsof:*)", "Bash(xargs kill:*)", "Bash(rm:*)"],
+    "allow": [
+      "Bash(lsof:*)",
+      "Bash(xargs kill:*)",
+      "Bash(rm:*)",
+      "Bash(cat:*)",
+      "Bash(pnpm add:*)"
+    ],
     "deny": [],
     "ask": []
   }

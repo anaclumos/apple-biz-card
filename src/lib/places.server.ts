@@ -1,7 +1,7 @@
 import "server-only";
 
 import { eq } from "drizzle-orm";
-import { getDb } from "@/db";
+import { db } from "@/db";
 import { defaultPlaces } from "@/db/schema";
 
 // SECURITY: This module is server-only. Date checks use server time - client cannot bypass.
@@ -25,7 +25,6 @@ function getServerDateString(): string {
 export async function getDefaultPlaceForToday(): Promise<string | undefined> {
   const serverDate = getServerDateString();
 
-  const db = getDb();
   const result = await db
     .select({ place: defaultPlaces.place })
     .from(defaultPlaces)

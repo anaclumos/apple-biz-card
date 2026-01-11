@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages, getTranslations } from "next-intl/server";
@@ -41,6 +42,7 @@ export default async function RootLayout({ children }: Props) {
           <NuqsAdapter>{children}</NuqsAdapter>
           <Toaster />
         </NextIntlClientProvider>
+        <Analytics />
       </body>
     </html>
   );

@@ -3,7 +3,7 @@ import { readFileSync } from "node:fs";
 import { join } from "node:path";
 import { type NextRequest, NextResponse } from "next/server";
 import { PKPass } from "passkit-generator";
-import { getDb } from "@/db";
+import { db } from "@/db";
 import { visitors } from "@/db/schema";
 import { getLocaleFromAcceptLanguage } from "@/lib/locale";
 import enMessages from "../../../../messages/en.json";
@@ -70,7 +70,7 @@ export async function POST(request: NextRequest) {
     const serialNumber = `CARD-${randomUUID()}`;
     const meetingDate = new Date(meetingDateStr);
 
-    await getDb().insert(visitors).values({
+    await db.insert(visitors).values({
       name,
       phone,
       meetingPlace,

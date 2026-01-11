@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "title": "Kartu Nama  Sunghyun",
-    "description": "Ayo tukar kartu nama  Wallet!"
+    "title": "Kartu Nama APPLE_LOGO Sunghyun",
+    "description": "Ayo tukar kartu nama APPLE_LOGO Wallet!"
   },
   "home": {
-    "title": "Kartu Nama  Sunghyun",
-    "description": "Ayo tukar kartu nama  Wallet!",
+    "title": "Kartu Nama APPLE_LOGO Sunghyun",
+    "description": "Ayo tukar kartu nama APPLE_LOGO Wallet!",
     "nameLabel": "Siapa nama Anda?",
     "namePlaceholder": "Budi Santoso",
     "nameError": "Silakan masukkan nama Anda.",
@@ -20,13 +20,17 @@
     "submitButton": "Dapatkan Kartu",
     "submitLoading": "Membuat...",
     "shareButton": "Bagikan",
-    "shareTitle": "Kartu Nama  Sunghyun",
-    "shareText": "Ayo tukar kartu nama  Wallet!",
+    "shareTitle": "Kartu Nama APPLE_LOGO Sunghyun",
+    "shareText": "Ayo tukar kartu nama APPLE_LOGO Wallet!",
     "linkCopied": "Tautan disalin!",
     "passError": "Gagal membuat pass.",
     "genericError": "Terjadi kesalahan.",
     "inAppBrowserTitle": "Silakan buka di browser eksternal",
-    "inAppBrowserNotSupported": "Browser dalam aplikasi tidak mendukung integrasi  Wallet."
+    "inAppBrowserNotSupported": "Browser dalam aplikasi tidak mendukung integrasi  Wallet.",
+    "successDrawerTitle": "Kartu Siap!",
+    "successDrawerDescription": "Buka APPLE_LOGO Wallet untuk melihat kartu baru Anda.",
+    "successDrawerOpen": "Buka APPLE_LOGO Wallet",
+    "successDrawerDone": "Selesai"
   },
   "setDefault": {
     "title": "Atur Tempat Default",
@@ -53,8 +57,8 @@
     "passGenerateError": "Terjadi kesalahan saat membuat pass."
   },
   "pass": {
-    "organizationName": "Kartu Nama  Sunghyun",
-    "description": "Kartu Nama  Sunghyun",
+    "organizationName": "Kartu Nama APPLE_LOGO Sunghyun",
+    "description": "Kartu Nama APPLE_LOGO Sunghyun",
     "phoneLabel": "Telepon",
     "emailLabel": "Email",
     "homepageLabel": "Situs Web",

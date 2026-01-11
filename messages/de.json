@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "title": "Sunghyuns  Visitenkarte",
-    "description": "Tauschen wir  Wallet Visitenkarten aus!"
+    "title": "Sunghyuns APPLE_LOGO Visitenkarte",
+    "description": "Tauschen wir APPLE_LOGO Wallet Visitenkarten aus!"
   },
   "home": {
-    "title": "Sunghyuns  Visitenkarte",
-    "description": "Tauschen wir  Wallet Visitenkarten aus!",
+    "title": "Sunghyuns APPLE_LOGO Visitenkarte",
+    "description": "Tauschen wir APPLE_LOGO Wallet Visitenkarten aus!",
     "nameLabel": "Wie heißen Sie?",
     "namePlaceholder": "Max Mustermann",
     "nameError": "Bitte geben Sie Ihren Namen ein.",
@@ -20,13 +20,17 @@
     "submitButton": "Karte erhalten",
     "submitLoading": "Wird erstellt...",
     "shareButton": "Teilen",
-    "shareTitle": "Sunghyuns  Visitenkarte",
-    "shareText": "Tauschen wir  Wallet Visitenkarten aus!",
+    "shareTitle": "Sunghyuns APPLE_LOGO Visitenkarte",
+    "shareText": "Tauschen wir APPLE_LOGO Wallet Visitenkarten aus!",
     "linkCopied": "Link kopiert!",
     "passError": "Pass konnte nicht erstellt werden.",
     "genericError": "Ein Fehler ist aufgetreten.",
     "inAppBrowserTitle": "Bitte in externem Browser öffnen",
-    "inAppBrowserNotSupported": "In-App-Browser unterstützen keine  Wallet-Integration."
+    "inAppBrowserNotSupported": "In-App-Browser unterstützen keine  Wallet-Integration.",
+    "successDrawerTitle": "Karte bereit!",
+    "successDrawerDescription": "Öffne  Wallet, um deine neue Karte zu sehen.",
+    "successDrawerOpen": " Wallet öffnen",
+    "successDrawerDone": "Fertig"
   },
   "setDefault": {
     "title": "Standardort festlegen",
@@ -53,8 +57,8 @@
     "passGenerateError": "Fehler bei der Pass-Generierung."
   },
   "pass": {
-    "organizationName": "Sunghyuns  Visitenkarte",
-    "description": "Sunghyuns  Visitenkarte",
+    "organizationName": "Sunghyuns APPLE_LOGO Visitenkarte",
+    "description": "Sunghyuns APPLE_LOGO Visitenkarte",
     "phoneLabel": "Telefon",
     "emailLabel": "E-Mail",
     "homepageLabel": "Homepage",

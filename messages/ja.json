@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "title": "ソンヒョンの  名刺",
-    "description": " Wallet名刺を交換しましょう！"
+    "title": "ソンヒョンの APPLE_LOGO 名刺",
+    "description": "APPLE_LOGO Wallet名刺を交換しましょう！"
   },
   "home": {
-    "title": "ソンヒョンの  名刺",
-    "description": " Wallet名刺を交換しましょう！",
+    "title": "ソンヒョンの APPLE_LOGO 名刺",
+    "description": "APPLE_LOGO Wallet名刺を交換しましょう！",
     "nameLabel": "お名前は？",
     "namePlaceholder": "山田太郎",
     "nameError": "名前を入力してください。",
@@ -20,13 +20,17 @@
     "submitButton": "名刺を取得",
     "submitLoading": "作成中...",
     "shareButton": "共有",
-    "shareTitle": "ソンヒョンの  名刺",
-    "shareText": " Wallet名刺を交換しましょう！",
+    "shareTitle": "ソンヒョンの APPLE_LOGO 名刺",
+    "shareText": "APPLE_LOGO Wallet名刺を交換しましょう！",
     "linkCopied": "リンクをコピーしました！",
     "passError": "パスの作成に失敗しました。",
     "genericError": "エラーが発生しました。",
     "inAppBrowserTitle": "外部ブラウザで開いてください",
-    "inAppBrowserNotSupported": "アプリ内ブラウザは Wallet連携に対応していません。"
+    "inAppBrowserNotSupported": "アプリ内ブラウザは Wallet連携に対応していません。",
+    "successDrawerTitle": "名刺の準備完了！",
+    "successDrawerDescription": "APPLE_LOGO Walletを開いて新しい名刺を確認してください。",
+    "successDrawerOpen": "APPLE_LOGO Walletを開く",
+    "successDrawerDone": "完了"
   },
   "setDefault": {
     "title": "デフォルトの場所を設定",
@@ -53,8 +57,8 @@
     "passGenerateError": "パス生成中にエラーが発生しました。"
   },
   "pass": {
-    "organizationName": "ソンヒョンの  名刺",
-    "description": "ソンヒョンの  名刺",
+    "organizationName": "ソンヒョンの APPLE_LOGO 名刺",
+    "description": "ソンヒョンの APPLE_LOGO 名刺",
     "phoneLabel": "電話",
     "emailLabel": "メール",
     "homepageLabel": "ホームページ",

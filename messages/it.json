@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "title": "Biglietto  da visita di Sunghyun",
-    "description": "Scambiamoci i biglietti  Wallet!"
+    "title": "Biglietto APPLE_LOGO da visita di Sunghyun",
+    "description": "Scambiamoci i biglietti APPLE_LOGO Wallet!"
   },
   "home": {
-    "title": "Biglietto  da visita di Sunghyun",
-    "description": "Scambiamoci i biglietti  Wallet!",
+    "title": "Biglietto APPLE_LOGO da visita di Sunghyun",
+    "description": "Scambiamoci i biglietti APPLE_LOGO Wallet!",
     "nameLabel": "Come ti chiami?",
     "namePlaceholder": "Mario Rossi",
     "nameError": "Per favore, inserisci il tuo nome.",
@@ -20,13 +20,17 @@
     "submitButton": "Ottieni biglietto",
     "submitLoading": "Creazione...",
     "shareButton": "Condividi",
-    "shareTitle": "Biglietto  da visita di Sunghyun",
-    "shareText": "Scambiamoci i biglietti  Wallet!",
+    "shareTitle": "Biglietto APPLE_LOGO da visita di Sunghyun",
+    "shareText": "Scambiamoci i biglietti APPLE_LOGO Wallet!",
     "linkCopied": "Link copiato!",
     "passError": "Impossibile creare il pass.",
     "genericError": "Si è verificato un errore.",
     "inAppBrowserTitle": "Per favore, apri in un browser esterno",
-    "inAppBrowserNotSupported": "I browser integrati non supportano l'integrazione con  Wallet."
+    "inAppBrowserNotSupported": "I browser integrati non supportano l'integrazione con  Wallet.",
+    "successDrawerTitle": "Biglietto pronto!",
+    "successDrawerDescription": "Apri  Wallet per vedere il tuo nuovo biglietto.",
+    "successDrawerOpen": "Apri  Wallet",
+    "successDrawerDone": "Fatto"
   },
   "setDefault": {
     "title": "Imposta luogo predefinito",
@@ -53,8 +57,8 @@
     "passGenerateError": "Errore durante la generazione del pass."
   },
   "pass": {
-    "organizationName": "Biglietto  da visita di Sunghyun",
-    "description": "Biglietto  da visita di Sunghyun",
+    "organizationName": "Biglietto APPLE_LOGO da visita di Sunghyun",
+    "description": "Biglietto APPLE_LOGO da visita di Sunghyun",
     "phoneLabel": "Telefono",
     "emailLabel": "E-mail",
     "homepageLabel": "Sito web",

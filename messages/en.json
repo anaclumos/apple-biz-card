@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "title": "Sunghyun's  Biz Card",
-    "description": "Let's exchange  Wallet Biz Card!"
+    "title": "Sunghyun's APPLE_LOGO Biz Card",
+    "description": "Let's exchange APPLE_LOGO Wallet Biz Card!"
   },
   "home": {
-    "title": "Sunghyun's  Biz Card",
-    "description": "Let's exchange  Wallet Biz Card!",
+    "title": "Sunghyun's APPLE_LOGO Biz Card",
+    "description": "Let's exchange APPLE_LOGO Wallet Biz Card!",
     "nameLabel": "What is your name?",
     "namePlaceholder": "John Doe",
     "nameError": "Please enter your name.",
@@ -20,8 +20,8 @@
     "submitButton": "Get Card",
     "submitLoading": "Creating...",
     "shareButton": "Share",
-    "shareTitle": "Sunghyun's  Biz Card",
-    "shareText": "Let's exchange  Wallet Biz Card!",
+    "shareTitle": "Sunghyun's APPLE_LOGO Biz Card",
+    "shareText": "Let's exchange APPLE_LOGO Wallet Biz Card!",
     "linkCopied": "Link copied!",
     "passError": "Failed to create pass.",
     "genericError": "An error occurred.",
@@ -57,8 +57,8 @@
     "passGenerateError": "Error occurred while generating pass."
   },
   "pass": {
-    "organizationName": "Sunghyun's  Biz Card",
-    "description": "Sunghyun's  Biz Card",
+    "organizationName": "Sunghyun's APPLE_LOGO Biz Card",
+    "description": "Sunghyun's APPLE_LOGO Biz Card",
     "phoneLabel": "Phone",
     "emailLabel": "Email",
     "homepageLabel": "Homepage",

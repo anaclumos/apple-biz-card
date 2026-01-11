@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "title": "Sunghyuns  Visitkort",
-    "description": "Låt oss byta  Wallet visitkort!"
+    "title": "Sunghyuns APPLE_LOGO Visitkort",
+    "description": "Låt oss byta APPLE_LOGO Wallet visitkort!"
   },
   "home": {
-    "title": "Sunghyuns  Visitkort",
-    "description": "Låt oss byta  Wallet visitkort!",
+    "title": "Sunghyuns APPLE_LOGO Visitkort",
+    "description": "Låt oss byta APPLE_LOGO Wallet visitkort!",
     "nameLabel": "Vad heter du?",
     "namePlaceholder": "Erik Svensson",
     "nameError": "Vänligen ange ditt namn.",
@@ -20,13 +20,17 @@
     "submitButton": "Hämta kort",
     "submitLoading": "Skapar...",
     "shareButton": "Dela",
-    "shareTitle": "Sunghyuns  Visitkort",
-    "shareText": "Låt oss byta  Wallet visitkort!",
+    "shareTitle": "Sunghyuns APPLE_LOGO Visitkort",
+    "shareText": "Låt oss byta APPLE_LOGO Wallet visitkort!",
     "linkCopied": "Länk kopierad!",
     "passError": "Kunde inte skapa pass.",
     "genericError": "Ett fel uppstod.",
     "inAppBrowserTitle": "Öppna i extern webbläsare",
-    "inAppBrowserNotSupported": "Inbyggda webbläsare stöder inte  Wallet-integration."
+    "inAppBrowserNotSupported": "Inbyggda webbläsare stöder inte  Wallet-integration.",
+    "successDrawerTitle": "Kort klart!",
+    "successDrawerDescription": "Öppna APPLE_LOGO Wallet för att se ditt nya kort.",
+    "successDrawerOpen": "Öppna APPLE_LOGO Wallet",
+    "successDrawerDone": "Klar"
   },
   "setDefault": {
     "title": "Ange standardplats",
@@ -53,8 +57,8 @@
     "passGenerateError": "Fel vid generering av pass."
   },
   "pass": {
-    "organizationName": "Sunghyuns  Visitkort",
-    "description": "Sunghyuns  Visitkort",
+    "organizationName": "Sunghyuns APPLE_LOGO Visitkort",
+    "description": "Sunghyuns APPLE_LOGO Visitkort",
     "phoneLabel": "Telefon",
     "emailLabel": "E-post",
     "homepageLabel": "Hemsida",

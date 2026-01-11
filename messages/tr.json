@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "title": "Sunghyun'un  Kartviziti",
-    "description": " Wallet kartvizit değişelim!"
+    "title": "Sunghyun'un APPLE_LOGO Kartviziti",
+    "description": "APPLE_LOGO Wallet kartvizit değişelim!"
   },
   "home": {
-    "title": "Sunghyun'un  Kartviziti",
-    "description": " Wallet kartvizit değişelim!",
+    "title": "Sunghyun'un APPLE_LOGO Kartviziti",
+    "description": "APPLE_LOGO Wallet kartvizit değişelim!",
     "nameLabel": "Adınız nedir?",
     "namePlaceholder": "Ahmet Yılmaz",
     "nameError": "Lütfen adınızı girin.",
@@ -20,13 +20,17 @@
     "submitButton": "Kartvizit Al",
     "submitLoading": "Oluşturuluyor...",
     "shareButton": "Paylaş",
-    "shareTitle": "Sunghyun'un  Kartviziti",
-    "shareText": " Wallet kartvizit değişelim!",
+    "shareTitle": "Sunghyun'un APPLE_LOGO Kartviziti",
+    "shareText": "APPLE_LOGO Wallet kartvizit değişelim!",
     "linkCopied": "Bağlantı kopyalandı!",
     "passError": "Geçiş kartı oluşturulamadı.",
     "genericError": "Bir hata oluştu.",
     "inAppBrowserTitle": "Lütfen harici tarayıcıda açın",
-    "inAppBrowserNotSupported": "Uygulama içi tarayıcılar  Wallet entegrasyonunu desteklemiyor."
+    "inAppBrowserNotSupported": "Uygulama içi tarayıcılar  Wallet entegrasyonunu desteklemiyor.",
+    "successDrawerTitle": "Kartvizit Hazır!",
+    "successDrawerDescription": "Yeni kartvizitinizi görmek için APPLE_LOGO Wallet'ı açın.",
+    "successDrawerOpen": "APPLE_LOGO Wallet'ı Aç",
+    "successDrawerDone": "Tamam"
   },
   "setDefault": {
     "title": "Varsayılan Yer Ayarla",
@@ -53,8 +57,8 @@
     "passGenerateError": "Geçiş kartı oluşturulurken hata oluştu."
   },
   "pass": {
-    "organizationName": "Sunghyun'un  Kartviziti",
-    "description": "Sunghyun'un  Kartviziti",
+    "organizationName": "Sunghyun'un APPLE_LOGO Kartviziti",
+    "description": "Sunghyun'un APPLE_LOGO Kartviziti",
     "phoneLabel": "Telefon",
     "emailLabel": "E-posta",
     "homepageLabel": "Web sitesi",

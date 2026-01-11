@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "title": "นามบัตร  ของซองฮยอน",
-    "description": "มาแลกนามบัตร  Wallet กันเถอะ!"
+    "title": "นามบัตร APPLE_LOGO ของซองฮยอน",
+    "description": "มาแลกนามบัตร APPLE_LOGO Wallet กันเถอะ!"
   },
   "home": {
-    "title": "นามบัตร  ของซองฮยอน",
-    "description": "มาแลกนามบัตร  Wallet กันเถอะ!",
+    "title": "นามบัตร APPLE_LOGO ของซองฮยอน",
+    "description": "มาแลกนามบัตร APPLE_LOGO Wallet กันเถอะ!",
     "nameLabel": "คุณชื่ออะไร?",
     "namePlaceholder": "สมชาย ใจดี",
     "nameError": "กรุณาใส่ชื่อของคุณ",
@@ -20,13 +20,17 @@
     "submitButton": "รับนามบัตร",
     "submitLoading": "กำลังสร้าง...",
     "shareButton": "แชร์",
-    "shareTitle": "นามบัตร  ของซองฮยอน",
-    "shareText": "มาแลกนามบัตร  Wallet กันเถอะ!",
+    "shareTitle": "นามบัตร APPLE_LOGO ของซองฮยอน",
+    "shareText": "มาแลกนามบัตร APPLE_LOGO Wallet กันเถอะ!",
     "linkCopied": "คัดลอกลิงก์แล้ว!",
     "passError": "ไม่สามารถสร้างพาสได้",
     "genericError": "เกิดข้อผิดพลาด",
     "inAppBrowserTitle": "กรุณาเปิดในเบราว์เซอร์ภายนอก",
-    "inAppBrowserNotSupported": "เบราว์เซอร์ในแอปไม่รองรับการเชื่อมต่อ  Wallet"
+    "inAppBrowserNotSupported": "เบราว์เซอร์ในแอปไม่รองรับการเชื่อมต่อ  Wallet",
+    "successDrawerTitle": "นามบัตรพร้อมแล้ว!",
+    "successDrawerDescription": "เปิด APPLE_LOGO Wallet เพื่อดูนามบัตรใหม่ของคุณ",
+    "successDrawerOpen": "เปิด APPLE_LOGO Wallet",
+    "successDrawerDone": "เสร็จสิ้น"
   },
   "setDefault": {
     "title": "ตั้งค่าสถานที่เริ่มต้น",
@@ -53,8 +57,8 @@
     "passGenerateError": "เกิดข้อผิดพลาดขณะสร้างพาส"
   },
   "pass": {
-    "organizationName": "นามบัตร  ของซองฮยอน",
-    "description": "นามบัตร  ของซองฮยอน",
+    "organizationName": "นามบัตร APPLE_LOGO ของซองฮยอน",
+    "description": "นามบัตร APPLE_LOGO ของซองฮยอน",
     "phoneLabel": "โทรศัพท์",
     "emailLabel": "อีเมล",
     "homepageLabel": "เว็บไซต์",

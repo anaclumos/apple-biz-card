@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "title": "सुंगह्यून का  बिज़नेस कार्ड",
-    "description": " Wallet बिज़नेस कार्ड एक्सचेंज करें!"
+    "title": "सुंगह्यून का APPLE_LOGO बिज़नेस कार्ड",
+    "description": "APPLE_LOGO Wallet बिज़नेस कार्ड एक्सचेंज करें!"
   },
   "home": {
-    "title": "सुंगह्यून का  बिज़नेस कार्ड",
-    "description": " Wallet बिज़नेस कार्ड एक्सचेंज करें!",
+    "title": "सुंगह्यून का APPLE_LOGO बिज़नेस कार्ड",
+    "description": "APPLE_LOGO Wallet बिज़नेस कार्ड एक्सचेंज करें!",
     "nameLabel": "आपका नाम क्या है?",
     "namePlaceholder": "राहुल शर्मा",
     "nameError": "कृपया अपना नाम दर्ज करें।",
@@ -20,13 +20,17 @@
     "submitButton": "कार्ड प्राप्त करें",
     "submitLoading": "बना रहे हैं...",
     "shareButton": "शेयर करें",
-    "shareTitle": "सुंगह्यून का  बिज़नेस कार्ड",
-    "shareText": " Wallet बिज़नेस कार्ड एक्सचेंज करें!",
+    "shareTitle": "सुंगह्यून का APPLE_LOGO बिज़नेस कार्ड",
+    "shareText": "APPLE_LOGO Wallet बिज़नेस कार्ड एक्सचेंज करें!",
     "linkCopied": "लिंक कॉपी हो गया!",
     "passError": "पास बनाने में विफल।",
     "genericError": "एक त्रुटि हुई।",
     "inAppBrowserTitle": "कृपया बाहरी ब्राउज़र में खोलें",
-    "inAppBrowserNotSupported": "इन-ऐप ब्राउज़र  Wallet इंटीग्रेशन को सपोर्ट नहीं करते।"
+    "inAppBrowserNotSupported": "इन-ऐप ब्राउज़र  Wallet इंटीग्रेशन को सपोर्ट नहीं करते।",
+    "successDrawerTitle": "कार्ड तैयार है!",
+    "successDrawerDescription": "अपना नया कार्ड देखने के लिए APPLE_LOGO Wallet खोलें।",
+    "successDrawerOpen": "APPLE_LOGO Wallet खोलें",
+    "successDrawerDone": "हो गया"
   },
   "setDefault": {
     "title": "डिफ़ॉल्ट स्थान सेट करें",
@@ -53,8 +57,8 @@
     "passGenerateError": "पास जनरेट करते समय त्रुटि।"
   },
   "pass": {
-    "organizationName": "सुंगह्यून का  बिज़नेस कार्ड",
-    "description": "सुंगह्यून का  बिज़नेस कार्ड",
+    "organizationName": "सुंगह्यून का APPLE_LOGO बिज़नेस कार्ड",
+    "description": "सुंगह्यून का APPLE_LOGO बिज़नेस कार्ड",
     "phoneLabel": "फ़ोन",
     "emailLabel": "ईमेल",
     "homepageLabel": "होमपेज",

@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "title": "Визитка  Сонхёна",
-    "description": "Обменяемся визитками  Wallet!"
+    "title": "Визитка APPLE_LOGO Сонхёна",
+    "description": "Обменяемся визитками APPLE_LOGO Wallet!"
   },
   "home": {
-    "title": "Визитка  Сонхёна",
-    "description": "Обменяемся визитками  Wallet!",
+    "title": "Визитка APPLE_LOGO Сонхёна",
+    "description": "Обменяемся визитками APPLE_LOGO Wallet!",
     "nameLabel": "Как вас зовут?",
     "namePlaceholder": "Иван Иванов",
     "nameError": "Пожалуйста, введите ваше имя.",
@@ -20,13 +20,17 @@
     "submitButton": "Получить визитку",
     "submitLoading": "Создание...",
     "shareButton": "Поделиться",
-    "shareTitle": "Визитка  Сонхёна",
-    "shareText": "Обменяемся визитками  Wallet!",
+    "shareTitle": "Визитка APPLE_LOGO Сонхёна",
+    "shareText": "Обменяемся визитками APPLE_LOGO Wallet!",
     "linkCopied": "Ссылка скопирована!",
     "passError": "Не удалось создать пропуск.",
     "genericError": "Произошла ошибка.",
     "inAppBrowserTitle": "Откройте во внешнем браузере",
-    "inAppBrowserNotSupported": "Встроенные браузеры не поддерживают интеграцию с  Wallet."
+    "inAppBrowserNotSupported": "Встроенные браузеры не поддерживают интеграцию с  Wallet.",
+    "successDrawerTitle": "Визитка готова!",
+    "successDrawerDescription": "Откройте  Wallet, чтобы увидеть новую визитку.",
+    "successDrawerOpen": "Открыть  Wallet",
+    "successDrawerDone": "Готово"
   },
   "setDefault": {
     "title": "Установить место по умолчанию",
@@ -53,8 +57,8 @@
     "passGenerateError": "Ошибка при создании пропуска."
   },
   "pass": {
-    "organizationName": "Визитка  Сонхёна",
-    "description": "Визитка  Сонхёна",
+    "organizationName": "Визитка APPLE_LOGO Сонхёна",
+    "description": "Визитка APPLE_LOGO Сонхёна",
     "phoneLabel": "Телефон",
     "emailLabel": "Эл. почта",
     "homepageLabel": "Сайт",

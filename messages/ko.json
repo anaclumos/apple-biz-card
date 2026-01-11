@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "title": "조성현의  명함",
-    "description": " Wallet 명함 교환해요"
+    "title": "조성현의 APPLE_LOGO 명함",
+    "description": "APPLE_LOGO Wallet 명함 교환해요"
   },
   "home": {
-    "title": "조성현의  명함",
-    "description": " Wallet 명함 교환해요",
+    "title": "조성현의 APPLE_LOGO 명함",
+    "description": "APPLE_LOGO Wallet 명함 교환해요",
     "nameLabel": "여러분의 이름은 무엇인가요?",
     "namePlaceholder": "홍길동",
     "nameError": "이름을 입력해주세요.",
@@ -20,8 +20,8 @@
     "submitButton": "명함 받기",
     "submitLoading": "생성 중...",
     "shareButton": "공유",
-    "shareTitle": "조성현의  명함",
-    "shareText": " Wallet 명함 교환해요",
+    "shareTitle": "조성현의 APPLE_LOGO 명함",
+    "shareText": "APPLE_LOGO Wallet 명함 교환해요",
     "linkCopied": "링크가 복사되었습니다!",
     "passError": "패스 생성에 실패했습니다.",
     "genericError": "오류가 발생했습니다.",
@@ -57,8 +57,8 @@
     "passGenerateError": "패스 생성 중 오류가 발생했습니다."
   },
   "pass": {
-    "organizationName": "조성현의  명함",
-    "description": " Wallet 명함 교환해요",
+    "organizationName": "조성현의 APPLE_LOGO 명함",
+    "description": "APPLE_LOGO Wallet 명함 교환해요",
     "phoneLabel": "전화번호",
     "emailLabel": "이메일",
     "homepageLabel": "홈페이지",

@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "title": "Sunghyun's  Biz Card",
+    "description": "Let's exchange  Wallet Biz Card!"
+  },
+  "home": {
+    "title": "Sunghyun's  Biz Card",
+    "description": "Let's exchange  Wallet Biz Card!",
+    "nameLabel": "What is your name?",
+    "namePlaceholder": "John Doe",
+    "nameError": "Please enter your name.",
+    "phoneLabel": "What is your phone number? I'll save it too!",
+    "phoneError": "Please enter your phone number.",
+    "placeLabel": "Where did we meet?",
+    "placePlaceholder": "Starbucks in Seoul Gangnam",
+    "placeError": "Please enter where we met.",
+    "dateLabel": "When did we meet?",
+    "dateError": "Please select when we met.",
+    "datePicker": "Pick a date",
+    "submitButton": "Get Card",
+    "submitLoading": "Creating...",
+    "shareButton": "Share",
+    "shareTitle": "Sunghyun's  Biz Card",
+    "shareText": "Let's exchange  Wallet Biz Card!",
+    "linkCopied": "Link copied!",
+    "passError": "Failed to create pass.",
+    "genericError": "An error occurred.",
+    "inAppBrowserTitle": "Please open in external browser",
+    "inAppBrowserNotSupported": "In-app browsers do not support  Wallet integration."
+  },
+  "setDefault": {
+    "title": "Set Default Place",
+    "description": "Set the default meeting place for a specific date",
+    "dateLabel": "Date",
+    "datePlaceholder": "Select a date",
+    "dateError": "Please select a date.",
+    "placeLabel": "Place",
+    "placePlaceholder": "Enter the meeting place",
+    "placeError": "Please enter a place.",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Admin password",
+    "passwordError": "Please enter the password.",
+    "submitButton": "Save",
+    "success": "Default place has been set!",
+    "genericError": "An unknown error occurred."
+  },
+  "api": {
+    "serverError": "Server configuration error.",
+    "invalidPassword": "Invalid password.",
+    "missingFields": "Please enter both date and place.",
+    "saveError": "Error occurred while saving.",
+    "passFieldsError": "Please enter name, phone number, meeting place, and meeting date.",
+    "passGenerateError": "Error occurred while generating pass."
+  },
+  "pass": {
+    "organizationName": "Sunghyun's  Biz Card",
+    "description": "Sunghyun's  Biz Card",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "homepageLabel": "Homepage",
+    "homepageUrl": "https://cho.sh",
+    "linkedinLabel": "LinkedIn",
+    "instagramLabel": "Instagram",
+    "kakaoLabel": "KakaoTalk",
+    "meetingPlaceLabel": "Where we met",
+    "meetingDateLabel": "When we met",
+    "lastUpdatedLabel": "Last updated",
+    "vcardNote": "Where we met: {place}\\nWhen we met: {date}",
+    "filename": "SunghyunCho_Card"
+  },
+  "dateFormat": "{month}/{day}/{year}",
+  "common": {
+    "selectCountry": "Select Country",
+    "searchCountry": "Search country...",
+    "noCountryFound": "No country found.",
+    "selectLanguage": "Select Language"
+  }
+}

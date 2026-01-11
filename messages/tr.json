@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "title": "Sunghyun'un  Kartviziti",
+    "description": " Wallet kartvizit değişelim!"
+  },
+  "home": {
+    "title": "Sunghyun'un  Kartviziti",
+    "description": " Wallet kartvizit değişelim!",
+    "nameLabel": "Adınız nedir?",
+    "namePlaceholder": "Ahmet Yılmaz",
+    "nameError": "Lütfen adınızı girin.",
+    "phoneLabel": "Telefon numaranız nedir? Ben de kaydedeceğim!",
+    "phoneError": "Lütfen telefon numaranızı girin.",
+    "placeLabel": "Nerede tanıştık?",
+    "placePlaceholder": "İstanbul Taksim Starbucks",
+    "placeError": "Lütfen tanıştığımız yeri girin.",
+    "dateLabel": "Ne zaman tanıştık?",
+    "dateError": "Lütfen bir tarih seçin.",
+    "datePicker": "Tarih seçin",
+    "submitButton": "Kartvizit Al",
+    "submitLoading": "Oluşturuluyor...",
+    "shareButton": "Paylaş",
+    "shareTitle": "Sunghyun'un  Kartviziti",
+    "shareText": " Wallet kartvizit değişelim!",
+    "linkCopied": "Bağlantı kopyalandı!",
+    "passError": "Geçiş kartı oluşturulamadı.",
+    "genericError": "Bir hata oluştu.",
+    "inAppBrowserTitle": "Lütfen harici tarayıcıda açın",
+    "inAppBrowserNotSupported": "Uygulama içi tarayıcılar  Wallet entegrasyonunu desteklemiyor."
+  },
+  "setDefault": {
+    "title": "Varsayılan Yer Ayarla",
+    "description": "Belirli bir tarih için varsayılan buluşma yerini ayarlayın",
+    "dateLabel": "Tarih",
+    "datePlaceholder": "Tarih seçin",
+    "dateError": "Lütfen bir tarih seçin.",
+    "placeLabel": "Yer",
+    "placePlaceholder": "Buluşma yerini girin",
+    "placeError": "Lütfen bir yer girin.",
+    "passwordLabel": "Şifre",
+    "passwordPlaceholder": "Yönetici şifresi",
+    "passwordError": "Lütfen şifreyi girin.",
+    "submitButton": "Kaydet",
+    "success": "Varsayılan yer ayarlandı!",
+    "genericError": "Bilinmeyen bir hata oluştu."
+  },
+  "api": {
+    "serverError": "Sunucu yapılandırma hatası.",
+    "invalidPassword": "Geçersiz şifre.",
+    "missingFields": "Lütfen tarih ve yeri girin.",
+    "saveError": "Kaydetme sırasında hata oluştu.",
+    "passFieldsError": "Lütfen ad, telefon, buluşma yeri ve tarihini girin.",
+    "passGenerateError": "Geçiş kartı oluşturulurken hata oluştu."
+  },
+  "pass": {
+    "organizationName": "Sunghyun'un  Kartviziti",
+    "description": "Sunghyun'un  Kartviziti",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-posta",
+    "homepageLabel": "Web sitesi",
+    "homepageUrl": "https://cho.sh",
+    "linkedinLabel": "LinkedIn",
+    "instagramLabel": "Instagram",
+    "kakaoLabel": "KakaoTalk",
+    "meetingPlaceLabel": "Buluşma yeri",
+    "meetingDateLabel": "Buluşma tarihi",
+    "lastUpdatedLabel": "Son güncelleme",
+    "vcardNote": "Buluşma yeri: {place}\\nBuluşma tarihi: {date}",
+    "filename": "SunghyunCho_Card"
+  },
+  "dateFormat": "{day}.{month}.{year}",
+  "common": {
+    "selectCountry": "Ülke seçin",
+    "searchCountry": "Ülke ara...",
+    "noCountryFound": "Ülke bulunamadı.",
+    "selectLanguage": "Dil seçin"
+  }
+}

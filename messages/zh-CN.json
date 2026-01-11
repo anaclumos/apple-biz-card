@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "title": "成炫的  名片",
+    "description": "交换 Wallet名片吧！"
+  },
+  "home": {
+    "title": "成炫的  名片",
+    "description": "交换 Wallet名片吧！",
+    "nameLabel": "您的名字是？",
+    "namePlaceholder": "张三",
+    "nameError": "请输入您的名字。",
+    "phoneLabel": "您的电话号码是？我也会保存的！",
+    "phoneError": "请输入您的电话号码。",
+    "placeLabel": "我们在哪里见面的？",
+    "placePlaceholder": "北京国贸星巴克",
+    "placeError": "请输入我们见面的地点。",
+    "dateLabel": "我们什么时候见面的？",
+    "dateError": "请选择日期。",
+    "datePicker": "选择日期",
+    "submitButton": "获取名片",
+    "submitLoading": "创建中...",
+    "shareButton": "分享",
+    "shareTitle": "成炫的  名片",
+    "shareText": "交换 Wallet名片吧！",
+    "linkCopied": "链接已复制！",
+    "passError": "创建通行证失败。",
+    "genericError": "发生错误。",
+    "inAppBrowserTitle": "请在外部浏览器中打开",
+    "inAppBrowserNotSupported": "应用内浏览器不支持 Wallet集成。"
+  },
+  "setDefault": {
+    "title": "设置默认地点",
+    "description": "为特定日期设置默认见面地点",
+    "dateLabel": "日期",
+    "datePlaceholder": "选择日期",
+    "dateError": "请选择日期。",
+    "placeLabel": "地点",
+    "placePlaceholder": "输入见面地点",
+    "placeError": "请输入地点。",
+    "passwordLabel": "密码",
+    "passwordPlaceholder": "管理员密码",
+    "passwordError": "请输入密码。",
+    "submitButton": "保存",
+    "success": "默认地点已设置！",
+    "genericError": "发生未知错误。"
+  },
+  "api": {
+    "serverError": "服务器配置错误。",
+    "invalidPassword": "密码无效。",
+    "missingFields": "请输入日期和地点。",
+    "saveError": "保存时发生错误。",
+    "passFieldsError": "请输入姓名、电话号码、见面地点和日期。",
+    "passGenerateError": "生成通行证时发生错误。"
+  },
+  "pass": {
+    "organizationName": "成炫的  名片",
+    "description": "成炫的  名片",
+    "phoneLabel": "电话",
+    "emailLabel": "邮箱",
+    "homepageLabel": "主页",
+    "homepageUrl": "https://cho.sh",
+    "linkedinLabel": "领英",
+    "instagramLabel": "Instagram",
+    "kakaoLabel": "KakaoTalk",
+    "meetingPlaceLabel": "见面地点",
+    "meetingDateLabel": "见面日期",
+    "lastUpdatedLabel": "最后更新",
+    "vcardNote": "见面地点: {place}\\n见面日期: {date}",
+    "filename": "SunghyunCho_Card"
+  },
+  "dateFormat": "{year}年{month}月{day}日",
+  "common": {
+    "selectCountry": "选择国家",
+    "searchCountry": "搜索国家...",
+    "noCountryFound": "未找到国家。",
+    "selectLanguage": "选择语言"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "title": "Sunghyun's  Visitekaartje",
+    "description": "Laten we  Wallet visitekaartjes uitwisselen!"
+  },
+  "home": {
+    "title": "Sunghyun's  Visitekaartje",
+    "description": "Laten we  Wallet visitekaartjes uitwisselen!",
+    "nameLabel": "Wat is je naam?",
+    "namePlaceholder": "Jan de Vries",
+    "nameError": "Voer je naam in.",
+    "phoneLabel": "Wat is je telefoonnummer? Ik sla het ook op!",
+    "phoneError": "Voer je telefoonnummer in.",
+    "placeLabel": "Waar hebben we elkaar ontmoet?",
+    "placePlaceholder": "Starbucks in Amsterdam Dam",
+    "placeError": "Voer in waar we elkaar ontmoet hebben.",
+    "dateLabel": "Wanneer hebben we elkaar ontmoet?",
+    "dateError": "Selecteer een datum.",
+    "datePicker": "Kies een datum",
+    "submitButton": "Kaartje ophalen",
+    "submitLoading": "Aanmaken...",
+    "shareButton": "Delen",
+    "shareTitle": "Sunghyun's  Visitekaartje",
+    "shareText": "Laten we  Wallet visitekaartjes uitwisselen!",
+    "linkCopied": "Link gekopieerd!",
+    "passError": "Kon pas niet aanmaken.",
+    "genericError": "Er is een fout opgetreden.",
+    "inAppBrowserTitle": "Open in externe browser",
+    "inAppBrowserNotSupported": "In-app browsers ondersteunen geen  Wallet integratie."
+  },
+  "setDefault": {
+    "title": "Standaardlocatie instellen",
+    "description": "Stel de standaard ontmoetingslocatie in voor een specifieke datum",
+    "dateLabel": "Datum",
+    "datePlaceholder": "Selecteer datum",
+    "dateError": "Selecteer een datum.",
+    "placeLabel": "Locatie",
+    "placePlaceholder": "Voer de ontmoetingslocatie in",
+    "placeError": "Voer een locatie in.",
+    "passwordLabel": "Wachtwoord",
+    "passwordPlaceholder": "Beheerderswachtwoord",
+    "passwordError": "Voer het wachtwoord in.",
+    "submitButton": "Opslaan",
+    "success": "Standaardlocatie ingesteld!",
+    "genericError": "Er is een onbekende fout opgetreden."
+  },
+  "api": {
+    "serverError": "Serverconfiguratiefout.",
+    "invalidPassword": "Ongeldig wachtwoord.",
+    "missingFields": "Voer datum en locatie in.",
+    "saveError": "Fout bij opslaan.",
+    "passFieldsError": "Voer naam, telefoon, locatie en datum van ontmoeting in.",
+    "passGenerateError": "Fout bij genereren van pas."
+  },
+  "pass": {
+    "organizationName": "Sunghyun's  Visitekaartje",
+    "description": "Sunghyun's  Visitekaartje",
+    "phoneLabel": "Telefoon",
+    "emailLabel": "E-mail",
+    "homepageLabel": "Website",
+    "homepageUrl": "https://cho.sh",
+    "linkedinLabel": "LinkedIn",
+    "instagramLabel": "Instagram",
+    "kakaoLabel": "KakaoTalk",
+    "meetingPlaceLabel": "Ontmoetingslocatie",
+    "meetingDateLabel": "Ontmoetingsdatum",
+    "lastUpdatedLabel": "Laatst bijgewerkt",
+    "vcardNote": "Ontmoetingslocatie: {place}\\nOntmoetingsdatum: {date}",
+    "filename": "SunghyunCho_Card"
+  },
+  "dateFormat": "{day}-{month}-{year}",
+  "common": {
+    "selectCountry": "Selecteer land",
+    "searchCountry": "Land zoeken...",
+    "noCountryFound": "Geen land gevonden.",
+    "selectLanguage": "Selecteer taal"
+  }
+}

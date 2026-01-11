@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "title": "بطاقة  سونغهيون",
+    "description": "لنتبادل بطاقات  Wallet!"
+  },
+  "home": {
+    "title": "بطاقة  سونغهيون",
+    "description": "لنتبادل بطاقات  Wallet!",
+    "nameLabel": "ما اسمك؟",
+    "namePlaceholder": "أحمد محمد",
+    "nameError": "الرجاء إدخال اسمك.",
+    "phoneLabel": "ما رقم هاتفك؟ سأحفظه أيضاً!",
+    "phoneError": "الرجاء إدخال رقم هاتفك.",
+    "placeLabel": "أين التقينا؟",
+    "placePlaceholder": "ستاربكس في الرياض",
+    "placeError": "الرجاء إدخال مكان اللقاء.",
+    "dateLabel": "متى التقينا؟",
+    "dateError": "الرجاء اختيار تاريخ.",
+    "datePicker": "اختر تاريخاً",
+    "submitButton": "احصل على البطاقة",
+    "submitLoading": "جارٍ الإنشاء...",
+    "shareButton": "مشاركة",
+    "shareTitle": "بطاقة  سونغهيون",
+    "shareText": "لنتبادل بطاقات  Wallet!",
+    "linkCopied": "تم نسخ الرابط!",
+    "passError": "فشل في إنشاء البطاقة.",
+    "genericError": "حدث خطأ.",
+    "inAppBrowserTitle": "يرجى الفتح في متصفح خارجي",
+    "inAppBrowserNotSupported": "المتصفحات المدمجة لا تدعم تكامل  Wallet."
+  },
+  "setDefault": {
+    "title": "تعيين المكان الافتراضي",
+    "description": "تعيين مكان اللقاء الافتراضي لتاريخ محدد",
+    "dateLabel": "التاريخ",
+    "datePlaceholder": "اختر تاريخاً",
+    "dateError": "الرجاء اختيار تاريخ.",
+    "placeLabel": "المكان",
+    "placePlaceholder": "أدخل مكان اللقاء",
+    "placeError": "الرجاء إدخال المكان.",
+    "passwordLabel": "كلمة المرور",
+    "passwordPlaceholder": "كلمة مرور المسؤول",
+    "passwordError": "الرجاء إدخال كلمة المرور.",
+    "submitButton": "حفظ",
+    "success": "تم تعيين المكان الافتراضي!",
+    "genericError": "حدث خطأ غير معروف."
+  },
+  "api": {
+    "serverError": "خطأ في تكوين الخادم.",
+    "invalidPassword": "كلمة المرور غير صالحة.",
+    "missingFields": "الرجاء إدخال التاريخ والمكان.",
+    "saveError": "حدث خطأ أثناء الحفظ.",
+    "passFieldsError": "الرجاء إدخال الاسم ورقم الهاتف ومكان وتاريخ اللقاء.",
+    "passGenerateError": "حدث خطأ أثناء إنشاء البطاقة."
+  },
+  "pass": {
+    "organizationName": "بطاقة  سونغهيون",
+    "description": "بطاقة  سونغهيون",
+    "phoneLabel": "الهاتف",
+    "emailLabel": "البريد الإلكتروني",
+    "homepageLabel": "الموقع",
+    "homepageUrl": "https://cho.sh",
+    "linkedinLabel": "لينكد إن",
+    "instagramLabel": "إنستغرام",
+    "kakaoLabel": "كاكاو توك",
+    "meetingPlaceLabel": "مكان اللقاء",
+    "meetingDateLabel": "تاريخ اللقاء",
+    "lastUpdatedLabel": "آخر تحديث",
+    "vcardNote": "مكان اللقاء: {place}\\nتاريخ اللقاء: {date}",
+    "filename": "SunghyunCho_Card"
+  },
+  "dateFormat": "{day}/{month}/{year}",
+  "common": {
+    "selectCountry": "اختر الدولة",
+    "searchCountry": "البحث عن دولة...",
+    "noCountryFound": "لم يتم العثور على دولة.",
+    "selectLanguage": "اختر اللغة"
+  }
+}

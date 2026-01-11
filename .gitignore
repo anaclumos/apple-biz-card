@@ -1,0 +1,30 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Next.js
+.next
+out
+build
+
+# Environment
+.env
+.env*.local
+
+# Private keys and certificates (SENSITIVE)
+*.p12
+*.pem
+*.cer
+*.csr
+
+# Generated output
+*.pkpass
+passkit/Card.pass/manifest.json
+passkit/Card.pass/signature
+
+# macOS
+.DS_Store
+
+# Misc
+*.log
+.vercel

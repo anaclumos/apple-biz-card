@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "title": "Sunghyuns  Visitkort",
+    "description": "Låt oss byta  Wallet visitkort!"
+  },
+  "home": {
+    "title": "Sunghyuns  Visitkort",
+    "description": "Låt oss byta  Wallet visitkort!",
+    "nameLabel": "Vad heter du?",
+    "namePlaceholder": "Erik Svensson",
+    "nameError": "Vänligen ange ditt namn.",
+    "phoneLabel": "Vad är ditt telefonnummer? Jag sparar det också!",
+    "phoneError": "Vänligen ange ditt telefonnummer.",
+    "placeLabel": "Var träffades vi?",
+    "placePlaceholder": "Starbucks i Stockholm City",
+    "placeError": "Vänligen ange var vi träffades.",
+    "dateLabel": "När träffades vi?",
+    "dateError": "Vänligen välj ett datum.",
+    "datePicker": "Välj datum",
+    "submitButton": "Hämta kort",
+    "submitLoading": "Skapar...",
+    "shareButton": "Dela",
+    "shareTitle": "Sunghyuns  Visitkort",
+    "shareText": "Låt oss byta  Wallet visitkort!",
+    "linkCopied": "Länk kopierad!",
+    "passError": "Kunde inte skapa pass.",
+    "genericError": "Ett fel uppstod.",
+    "inAppBrowserTitle": "Öppna i extern webbläsare",
+    "inAppBrowserNotSupported": "Inbyggda webbläsare stöder inte  Wallet-integration."
+  },
+  "setDefault": {
+    "title": "Ange standardplats",
+    "description": "Ange standardmötesplats för ett specifikt datum",
+    "dateLabel": "Datum",
+    "datePlaceholder": "Välj datum",
+    "dateError": "Vänligen välj ett datum.",
+    "placeLabel": "Plats",
+    "placePlaceholder": "Ange mötesplats",
+    "placeError": "Vänligen ange en plats.",
+    "passwordLabel": "Lösenord",
+    "passwordPlaceholder": "Administratörslösenord",
+    "passwordError": "Vänligen ange lösenord.",
+    "submitButton": "Spara",
+    "success": "Standardplats har angetts!",
+    "genericError": "Ett okänt fel uppstod."
+  },
+  "api": {
+    "serverError": "Serverkonfigurationsfel.",
+    "invalidPassword": "Ogiltigt lösenord.",
+    "missingFields": "Vänligen ange datum och plats.",
+    "saveError": "Fel vid sparande.",
+    "passFieldsError": "Vänligen ange namn, telefon, mötesplats och datum.",
+    "passGenerateError": "Fel vid generering av pass."
+  },
+  "pass": {
+    "organizationName": "Sunghyuns  Visitkort",
+    "description": "Sunghyuns  Visitkort",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-post",
+    "homepageLabel": "Hemsida",
+    "homepageUrl": "https://cho.sh",
+    "linkedinLabel": "LinkedIn",
+    "instagramLabel": "Instagram",
+    "kakaoLabel": "KakaoTalk",
+    "meetingPlaceLabel": "Mötesplats",
+    "meetingDateLabel": "Mötesdatum",
+    "lastUpdatedLabel": "Senast uppdaterad",
+    "vcardNote": "Mötesplats: {place}\\nMötesdatum: {date}",
+    "filename": "SunghyunCho_Card"
+  },
+  "dateFormat": "{year}-{month}-{day}",
+  "common": {
+    "selectCountry": "Välj land",
+    "searchCountry": "Sök land...",
+    "noCountryFound": "Inget land hittades.",
+    "selectLanguage": "Välj språk"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "title": "นามบัตร  ของซองฮยอน",
+    "description": "มาแลกนามบัตร  Wallet กันเถอะ!"
+  },
+  "home": {
+    "title": "นามบัตร  ของซองฮยอน",
+    "description": "มาแลกนามบัตร  Wallet กันเถอะ!",
+    "nameLabel": "คุณชื่ออะไร?",
+    "namePlaceholder": "สมชาย ใจดี",
+    "nameError": "กรุณาใส่ชื่อของคุณ",
+    "phoneLabel": "เบอร์โทรศัพท์ของคุณคืออะไร? ฉันจะบันทึกไว้ด้วย!",
+    "phoneError": "กรุณาใส่เบอร์โทรศัพท์",
+    "placeLabel": "เราพบกันที่ไหน?",
+    "placePlaceholder": "สตาร์บัคส์ สยามพารากอน กรุงเทพ",
+    "placeError": "กรุณาใส่สถานที่ที่เราพบกัน",
+    "dateLabel": "เราพบกันเมื่อไหร่?",
+    "dateError": "กรุณาเลือกวันที่",
+    "datePicker": "เลือกวันที่",
+    "submitButton": "รับนามบัตร",
+    "submitLoading": "กำลังสร้าง...",
+    "shareButton": "แชร์",
+    "shareTitle": "นามบัตร  ของซองฮยอน",
+    "shareText": "มาแลกนามบัตร  Wallet กันเถอะ!",
+    "linkCopied": "คัดลอกลิงก์แล้ว!",
+    "passError": "ไม่สามารถสร้างพาสได้",
+    "genericError": "เกิดข้อผิดพลาด",
+    "inAppBrowserTitle": "กรุณาเปิดในเบราว์เซอร์ภายนอก",
+    "inAppBrowserNotSupported": "เบราว์เซอร์ในแอปไม่รองรับการเชื่อมต่อ  Wallet"
+  },
+  "setDefault": {
+    "title": "ตั้งค่าสถานที่เริ่มต้น",
+    "description": "ตั้งค่าสถานที่นัดพบเริ่มต้นสำหรับวันที่ที่กำหนด",
+    "dateLabel": "วันที่",
+    "datePlaceholder": "เลือกวันที่",
+    "dateError": "กรุณาเลือกวันที่",
+    "placeLabel": "สถานที่",
+    "placePlaceholder": "ใส่สถานที่นัดพบ",
+    "placeError": "กรุณาใส่สถานที่",
+    "passwordLabel": "รหัสผ่าน",
+    "passwordPlaceholder": "รหัสผ่านผู้ดูแล",
+    "passwordError": "กรุณาใส่รหัสผ่าน",
+    "submitButton": "บันทึก",
+    "success": "ตั้งค่าสถานที่เริ่มต้นแล้ว!",
+    "genericError": "เกิดข้อผิดพลาดที่ไม่ทราบสาเหตุ"
+  },
+  "api": {
+    "serverError": "ข้อผิดพลาดการกำหนดค่าเซิร์ฟเวอร์",
+    "invalidPassword": "รหัสผ่านไม่ถูกต้อง",
+    "missingFields": "กรุณาใส่วันที่และสถานที่",
+    "saveError": "เกิดข้อผิดพลาดขณะบันทึก",
+    "passFieldsError": "กรุณาใส่ชื่อ เบอร์โทร สถานที่ และวันที่พบกัน",
+    "passGenerateError": "เกิดข้อผิดพลาดขณะสร้างพาส"
+  },
+  "pass": {
+    "organizationName": "นามบัตร  ของซองฮยอน",
+    "description": "นามบัตร  ของซองฮยอน",
+    "phoneLabel": "โทรศัพท์",
+    "emailLabel": "อีเมล",
+    "homepageLabel": "เว็บไซต์",
+    "homepageUrl": "https://cho.sh",
+    "linkedinLabel": "LinkedIn",
+    "instagramLabel": "Instagram",
+    "kakaoLabel": "KakaoTalk",
+    "meetingPlaceLabel": "สถานที่พบกัน",
+    "meetingDateLabel": "วันที่พบกัน",
+    "lastUpdatedLabel": "อัปเดตล่าสุด",
+    "vcardNote": "สถานที่พบกัน: {place}\\nวันที่พบกัน: {date}",
+    "filename": "SunghyunCho_Card"
+  },
+  "dateFormat": "{day}/{month}/{year}",
+  "common": {
+    "selectCountry": "เลือกประเทศ",
+    "searchCountry": "ค้นหาประเทศ...",
+    "noCountryFound": "ไม่พบประเทศ",
+    "selectLanguage": "เลือกภาษา"
+  }
+}

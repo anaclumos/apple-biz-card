@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "title": "Danh thiếp  của Sunghyun",
+    "description": "Hãy trao đổi danh thiếp  Wallet!"
+  },
+  "home": {
+    "title": "Danh thiếp  của Sunghyun",
+    "description": "Hãy trao đổi danh thiếp  Wallet!",
+    "nameLabel": "Tên bạn là gì?",
+    "namePlaceholder": "Nguyễn Văn A",
+    "nameError": "Vui lòng nhập tên của bạn.",
+    "phoneLabel": "Số điện thoại của bạn là gì? Tôi cũng sẽ lưu lại!",
+    "phoneError": "Vui lòng nhập số điện thoại.",
+    "placeLabel": "Chúng ta gặp nhau ở đâu?",
+    "placePlaceholder": "Starbucks Quận 1 Hồ Chí Minh",
+    "placeError": "Vui lòng nhập nơi chúng ta gặp nhau.",
+    "dateLabel": "Chúng ta gặp nhau khi nào?",
+    "dateError": "Vui lòng chọn ngày.",
+    "datePicker": "Chọn ngày",
+    "submitButton": "Nhận danh thiếp",
+    "submitLoading": "Đang tạo...",
+    "shareButton": "Chia sẻ",
+    "shareTitle": "Danh thiếp  của Sunghyun",
+    "shareText": "Hãy trao đổi danh thiếp  Wallet!",
+    "linkCopied": "Đã sao chép liên kết!",
+    "passError": "Không thể tạo thẻ.",
+    "genericError": "Đã xảy ra lỗi.",
+    "inAppBrowserTitle": "Vui lòng mở trong trình duyệt ngoài",
+    "inAppBrowserNotSupported": "Trình duyệt trong ứng dụng không hỗ trợ tích hợp  Wallet."
+  },
+  "setDefault": {
+    "title": "Đặt địa điểm mặc định",
+    "description": "Đặt địa điểm gặp mặt mặc định cho một ngày cụ thể",
+    "dateLabel": "Ngày",
+    "datePlaceholder": "Chọn ngày",
+    "dateError": "Vui lòng chọn ngày.",
+    "placeLabel": "Địa điểm",
+    "placePlaceholder": "Nhập địa điểm gặp mặt",
+    "placeError": "Vui lòng nhập địa điểm.",
+    "passwordLabel": "Mật khẩu",
+    "passwordPlaceholder": "Mật khẩu quản trị",
+    "passwordError": "Vui lòng nhập mật khẩu.",
+    "submitButton": "Lưu",
+    "success": "Đã đặt địa điểm mặc định!",
+    "genericError": "Đã xảy ra lỗi không xác định."
+  },
+  "api": {
+    "serverError": "Lỗi cấu hình máy chủ.",
+    "invalidPassword": "Mật khẩu không hợp lệ.",
+    "missingFields": "Vui lòng nhập ngày và địa điểm.",
+    "saveError": "Lỗi khi lưu.",
+    "passFieldsError": "Vui lòng nhập tên, số điện thoại, địa điểm và ngày gặp mặt.",
+    "passGenerateError": "Lỗi khi tạo thẻ."
+  },
+  "pass": {
+    "organizationName": "Danh thiếp  của Sunghyun",
+    "description": "Danh thiếp  của Sunghyun",
+    "phoneLabel": "Điện thoại",
+    "emailLabel": "Email",
+    "homepageLabel": "Trang web",
+    "homepageUrl": "https://cho.sh",
+    "linkedinLabel": "LinkedIn",
+    "instagramLabel": "Instagram",
+    "kakaoLabel": "KakaoTalk",
+    "meetingPlaceLabel": "Nơi gặp mặt",
+    "meetingDateLabel": "Ngày gặp mặt",
+    "lastUpdatedLabel": "Cập nhật lần cuối",
+    "vcardNote": "Nơi gặp mặt: {place}\\nNgày gặp mặt: {date}",
+    "filename": "SunghyunCho_Card"
+  },
+  "dateFormat": "{day}/{month}/{year}",
+  "common": {
+    "selectCountry": "Chọn quốc gia",
+    "searchCountry": "Tìm quốc gia...",
+    "noCountryFound": "Không tìm thấy quốc gia.",
+    "selectLanguage": "Chọn ngôn ngữ"
+  }
+}

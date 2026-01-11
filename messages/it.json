@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "title": "Biglietto  da visita di Sunghyun",
+    "description": "Scambiamoci i biglietti  Wallet!"
+  },
+  "home": {
+    "title": "Biglietto  da visita di Sunghyun",
+    "description": "Scambiamoci i biglietti  Wallet!",
+    "nameLabel": "Come ti chiami?",
+    "namePlaceholder": "Mario Rossi",
+    "nameError": "Per favore, inserisci il tuo nome.",
+    "phoneLabel": "Qual è il tuo numero di telefono? Lo salverò anch'io!",
+    "phoneError": "Per favore, inserisci il tuo numero di telefono.",
+    "placeLabel": "Dove ci siamo incontrati?",
+    "placePlaceholder": "Starbucks a Milano Duomo",
+    "placeError": "Per favore, indica dove ci siamo incontrati.",
+    "dateLabel": "Quando ci siamo incontrati?",
+    "dateError": "Per favore, seleziona una data.",
+    "datePicker": "Seleziona data",
+    "submitButton": "Ottieni biglietto",
+    "submitLoading": "Creazione...",
+    "shareButton": "Condividi",
+    "shareTitle": "Biglietto  da visita di Sunghyun",
+    "shareText": "Scambiamoci i biglietti  Wallet!",
+    "linkCopied": "Link copiato!",
+    "passError": "Impossibile creare il pass.",
+    "genericError": "Si è verificato un errore.",
+    "inAppBrowserTitle": "Per favore, apri in un browser esterno",
+    "inAppBrowserNotSupported": "I browser integrati non supportano l'integrazione con  Wallet."
+  },
+  "setDefault": {
+    "title": "Imposta luogo predefinito",
+    "description": "Imposta il luogo di incontro predefinito per una data specifica",
+    "dateLabel": "Data",
+    "datePlaceholder": "Seleziona data",
+    "dateError": "Per favore, seleziona una data.",
+    "placeLabel": "Luogo",
+    "placePlaceholder": "Inserisci il luogo dell'incontro",
+    "placeError": "Per favore, inserisci un luogo.",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Password amministratore",
+    "passwordError": "Per favore, inserisci la password.",
+    "submitButton": "Salva",
+    "success": "Luogo predefinito impostato!",
+    "genericError": "Si è verificato un errore sconosciuto."
+  },
+  "api": {
+    "serverError": "Errore di configurazione del server.",
+    "invalidPassword": "Password non valida.",
+    "missingFields": "Per favore, inserisci data e luogo.",
+    "saveError": "Errore durante il salvataggio.",
+    "passFieldsError": "Per favore, inserisci nome, telefono, luogo e data dell'incontro.",
+    "passGenerateError": "Errore durante la generazione del pass."
+  },
+  "pass": {
+    "organizationName": "Biglietto  da visita di Sunghyun",
+    "description": "Biglietto  da visita di Sunghyun",
+    "phoneLabel": "Telefono",
+    "emailLabel": "E-mail",
+    "homepageLabel": "Sito web",
+    "homepageUrl": "https://cho.sh",
+    "linkedinLabel": "LinkedIn",
+    "instagramLabel": "Instagram",
+    "kakaoLabel": "KakaoTalk",
+    "meetingPlaceLabel": "Luogo dell'incontro",
+    "meetingDateLabel": "Data dell'incontro",
+    "lastUpdatedLabel": "Ultimo aggiornamento",
+    "vcardNote": "Luogo dell'incontro: {place}\\nData dell'incontro: {date}",
+    "filename": "SunghyunCho_Card"
+  },
+  "dateFormat": "{day}/{month}/{year}",
+  "common": {
+    "selectCountry": "Seleziona paese",
+    "searchCountry": "Cerca paese...",
+    "noCountryFound": "Nessun paese trovato.",
+    "selectLanguage": "Seleziona lingua"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "title": "Kartu Nama  Sunghyun",
+    "description": "Ayo tukar kartu nama  Wallet!"
+  },
+  "home": {
+    "title": "Kartu Nama  Sunghyun",
+    "description": "Ayo tukar kartu nama  Wallet!",
+    "nameLabel": "Siapa nama Anda?",
+    "namePlaceholder": "Budi Santoso",
+    "nameError": "Silakan masukkan nama Anda.",
+    "phoneLabel": "Berapa nomor telepon Anda? Saya juga akan menyimpannya!",
+    "phoneError": "Silakan masukkan nomor telepon Anda.",
+    "placeLabel": "Di mana kita bertemu?",
+    "placePlaceholder": "Starbucks Jakarta Sudirman",
+    "placeError": "Silakan masukkan tempat kita bertemu.",
+    "dateLabel": "Kapan kita bertemu?",
+    "dateError": "Silakan pilih tanggal.",
+    "datePicker": "Pilih tanggal",
+    "submitButton": "Dapatkan Kartu",
+    "submitLoading": "Membuat...",
+    "shareButton": "Bagikan",
+    "shareTitle": "Kartu Nama  Sunghyun",
+    "shareText": "Ayo tukar kartu nama  Wallet!",
+    "linkCopied": "Tautan disalin!",
+    "passError": "Gagal membuat pass.",
+    "genericError": "Terjadi kesalahan.",
+    "inAppBrowserTitle": "Silakan buka di browser eksternal",
+    "inAppBrowserNotSupported": "Browser dalam aplikasi tidak mendukung integrasi  Wallet."
+  },
+  "setDefault": {
+    "title": "Atur Tempat Default",
+    "description": "Atur tempat pertemuan default untuk tanggal tertentu",
+    "dateLabel": "Tanggal",
+    "datePlaceholder": "Pilih tanggal",
+    "dateError": "Silakan pilih tanggal.",
+    "placeLabel": "Tempat",
+    "placePlaceholder": "Masukkan tempat pertemuan",
+    "placeError": "Silakan masukkan tempat.",
+    "passwordLabel": "Kata Sandi",
+    "passwordPlaceholder": "Kata sandi admin",
+    "passwordError": "Silakan masukkan kata sandi.",
+    "submitButton": "Simpan",
+    "success": "Tempat default telah diatur!",
+    "genericError": "Terjadi kesalahan yang tidak diketahui."
+  },
+  "api": {
+    "serverError": "Kesalahan konfigurasi server.",
+    "invalidPassword": "Kata sandi tidak valid.",
+    "missingFields": "Silakan masukkan tanggal dan tempat.",
+    "saveError": "Terjadi kesalahan saat menyimpan.",
+    "passFieldsError": "Silakan masukkan nama, telepon, tempat, dan tanggal pertemuan.",
+    "passGenerateError": "Terjadi kesalahan saat membuat pass."
+  },
+  "pass": {
+    "organizationName": "Kartu Nama  Sunghyun",
+    "description": "Kartu Nama  Sunghyun",
+    "phoneLabel": "Telepon",
+    "emailLabel": "Email",
+    "homepageLabel": "Situs Web",
+    "homepageUrl": "https://cho.sh",
+    "linkedinLabel": "LinkedIn",
+    "instagramLabel": "Instagram",
+    "kakaoLabel": "KakaoTalk",
+    "meetingPlaceLabel": "Tempat bertemu",
+    "meetingDateLabel": "Tanggal bertemu",
+    "lastUpdatedLabel": "Terakhir diperbarui",
+    "vcardNote": "Tempat bertemu: {place}\\nTanggal bertemu: {date}",
+    "filename": "SunghyunCho_Card"
+  },
+  "dateFormat": "{day}/{month}/{year}",
+  "common": {
+    "selectCountry": "Pilih negara",
+    "searchCountry": "Cari negara...",
+    "noCountryFound": "Negara tidak ditemukan.",
+    "selectLanguage": "Pilih bahasa"
+  }
+}

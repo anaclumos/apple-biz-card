@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "title": "ソンヒョンの  名刺",
+    "description": " Wallet名刺を交換しましょう！"
+  },
+  "home": {
+    "title": "ソンヒョンの  名刺",
+    "description": " Wallet名刺を交換しましょう！",
+    "nameLabel": "お名前は？",
+    "namePlaceholder": "山田太郎",
+    "nameError": "名前を入力してください。",
+    "phoneLabel": "電話番号は？私も保存します！",
+    "phoneError": "電話番号を入力してください。",
+    "placeLabel": "どこで会いましたか？",
+    "placePlaceholder": "東京渋谷のスターバックス",
+    "placeError": "出会った場所を入力してください。",
+    "dateLabel": "いつ会いましたか？",
+    "dateError": "日付を選択してください。",
+    "datePicker": "日付を選択",
+    "submitButton": "名刺を取得",
+    "submitLoading": "作成中...",
+    "shareButton": "共有",
+    "shareTitle": "ソンヒョンの  名刺",
+    "shareText": " Wallet名刺を交換しましょう！",
+    "linkCopied": "リンクをコピーしました！",
+    "passError": "パスの作成に失敗しました。",
+    "genericError": "エラーが発生しました。",
+    "inAppBrowserTitle": "外部ブラウザで開いてください",
+    "inAppBrowserNotSupported": "アプリ内ブラウザは Wallet連携に対応していません。"
+  },
+  "setDefault": {
+    "title": "デフォルトの場所を設定",
+    "description": "特定の日付のデフォルトの待ち合わせ場所を設定",
+    "dateLabel": "日付",
+    "datePlaceholder": "日付を選択",
+    "dateError": "日付を選択してください。",
+    "placeLabel": "場所",
+    "placePlaceholder": "待ち合わせ場所を入力",
+    "placeError": "場所を入力してください。",
+    "passwordLabel": "パスワード",
+    "passwordPlaceholder": "管理者パスワード",
+    "passwordError": "パスワードを入力してください。",
+    "submitButton": "保存",
+    "success": "デフォルトの場所が設定されました！",
+    "genericError": "不明なエラーが発生しました。"
+  },
+  "api": {
+    "serverError": "サーバー設定エラー。",
+    "invalidPassword": "パスワードが無効です。",
+    "missingFields": "日付と場所の両方を入力してください。",
+    "saveError": "保存中にエラーが発生しました。",
+    "passFieldsError": "名前、電話番号、出会った場所、日付をすべて入力してください。",
+    "passGenerateError": "パス生成中にエラーが発生しました。"
+  },
+  "pass": {
+    "organizationName": "ソンヒョンの  名刺",
+    "description": "ソンヒョンの  名刺",
+    "phoneLabel": "電話",
+    "emailLabel": "メール",
+    "homepageLabel": "ホームページ",
+    "homepageUrl": "https://cho.sh",
+    "linkedinLabel": "LinkedIn",
+    "instagramLabel": "Instagram",
+    "kakaoLabel": "KakaoTalk",
+    "meetingPlaceLabel": "出会った場所",
+    "meetingDateLabel": "出会った日",
+    "lastUpdatedLabel": "最終更新",
+    "vcardNote": "出会った場所: {place}\\n出会った日: {date}",
+    "filename": "SunghyunCho_Card"
+  },
+  "dateFormat": "{year}年{month}月{day}日",
+  "common": {
+    "selectCountry": "国を選択",
+    "searchCountry": "国を検索...",
+    "noCountryFound": "国が見つかりません。",
+    "selectLanguage": "言語を選択"
+  }
+}

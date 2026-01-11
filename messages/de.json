@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "title": "Sunghyuns  Visitenkarte",
+    "description": "Tauschen wir  Wallet Visitenkarten aus!"
+  },
+  "home": {
+    "title": "Sunghyuns  Visitenkarte",
+    "description": "Tauschen wir  Wallet Visitenkarten aus!",
+    "nameLabel": "Wie heißen Sie?",
+    "namePlaceholder": "Max Mustermann",
+    "nameError": "Bitte geben Sie Ihren Namen ein.",
+    "phoneLabel": "Wie ist Ihre Telefonnummer? Ich speichere sie auch!",
+    "phoneError": "Bitte geben Sie Ihre Telefonnummer ein.",
+    "placeLabel": "Wo haben wir uns getroffen?",
+    "placePlaceholder": "Starbucks in Berlin Alexanderplatz",
+    "placeError": "Bitte geben Sie an, wo wir uns getroffen haben.",
+    "dateLabel": "Wann haben wir uns getroffen?",
+    "dateError": "Bitte wählen Sie ein Datum.",
+    "datePicker": "Datum wählen",
+    "submitButton": "Karte erhalten",
+    "submitLoading": "Wird erstellt...",
+    "shareButton": "Teilen",
+    "shareTitle": "Sunghyuns  Visitenkarte",
+    "shareText": "Tauschen wir  Wallet Visitenkarten aus!",
+    "linkCopied": "Link kopiert!",
+    "passError": "Pass konnte nicht erstellt werden.",
+    "genericError": "Ein Fehler ist aufgetreten.",
+    "inAppBrowserTitle": "Bitte in externem Browser öffnen",
+    "inAppBrowserNotSupported": "In-App-Browser unterstützen keine  Wallet-Integration."
+  },
+  "setDefault": {
+    "title": "Standardort festlegen",
+    "description": "Standardtreffpunkt für ein bestimmtes Datum festlegen",
+    "dateLabel": "Datum",
+    "datePlaceholder": "Datum wählen",
+    "dateError": "Bitte wählen Sie ein Datum.",
+    "placeLabel": "Ort",
+    "placePlaceholder": "Treffpunkt eingeben",
+    "placeError": "Bitte geben Sie einen Ort ein.",
+    "passwordLabel": "Passwort",
+    "passwordPlaceholder": "Admin-Passwort",
+    "passwordError": "Bitte geben Sie das Passwort ein.",
+    "submitButton": "Speichern",
+    "success": "Standardort wurde festgelegt!",
+    "genericError": "Ein unbekannter Fehler ist aufgetreten."
+  },
+  "api": {
+    "serverError": "Serverkonfigurationsfehler.",
+    "invalidPassword": "Ungültiges Passwort.",
+    "missingFields": "Bitte geben Sie Datum und Ort ein.",
+    "saveError": "Fehler beim Speichern.",
+    "passFieldsError": "Bitte geben Sie Name, Telefon, Treffpunkt und Datum ein.",
+    "passGenerateError": "Fehler bei der Pass-Generierung."
+  },
+  "pass": {
+    "organizationName": "Sunghyuns  Visitenkarte",
+    "description": "Sunghyuns  Visitenkarte",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-Mail",
+    "homepageLabel": "Homepage",
+    "homepageUrl": "https://cho.sh",
+    "linkedinLabel": "LinkedIn",
+    "instagramLabel": "Instagram",
+    "kakaoLabel": "KakaoTalk",
+    "meetingPlaceLabel": "Treffpunkt",
+    "meetingDateLabel": "Trefftermin",
+    "lastUpdatedLabel": "Zuletzt aktualisiert",
+    "vcardNote": "Treffpunkt: {place}\\nTrefftermin: {date}",
+    "filename": "SunghyunCho_Card"
+  },
+  "dateFormat": "{day}.{month}.{year}",
+  "common": {
+    "selectCountry": "Land auswählen",
+    "searchCountry": "Land suchen...",
+    "noCountryFound": "Kein Land gefunden.",
+    "selectLanguage": "Sprache auswählen"
+  }
+}

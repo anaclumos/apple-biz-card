@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "title": "成炫的  名片",
+    "description": "交換 Wallet名片吧！"
+  },
+  "home": {
+    "title": "成炫的  名片",
+    "description": "交換 Wallet名片吧！",
+    "nameLabel": "您的名字是？",
+    "namePlaceholder": "王小明",
+    "nameError": "請輸入您的名字。",
+    "phoneLabel": "您的電話號碼是？我也會儲存的！",
+    "phoneError": "請輸入您的電話號碼。",
+    "placeLabel": "我們在哪裡見面的？",
+    "placePlaceholder": "台北信義區星巴克",
+    "placeError": "請輸入我們見面的地點。",
+    "dateLabel": "我們什麼時候見面的？",
+    "dateError": "請選擇日期。",
+    "datePicker": "選擇日期",
+    "submitButton": "取得名片",
+    "submitLoading": "建立中...",
+    "shareButton": "分享",
+    "shareTitle": "成炫的  名片",
+    "shareText": "交換 Wallet名片吧！",
+    "linkCopied": "連結已複製！",
+    "passError": "建立通行證失敗。",
+    "genericError": "發生錯誤。",
+    "inAppBrowserTitle": "請在外部瀏覽器中開啟",
+    "inAppBrowserNotSupported": "應用程式內瀏覽器不支援 Wallet整合。"
+  },
+  "setDefault": {
+    "title": "設定預設地點",
+    "description": "為特定日期設定預設見面地點",
+    "dateLabel": "日期",
+    "datePlaceholder": "選擇日期",
+    "dateError": "請選擇日期。",
+    "placeLabel": "地點",
+    "placePlaceholder": "輸入見面地點",
+    "placeError": "請輸入地點。",
+    "passwordLabel": "密碼",
+    "passwordPlaceholder": "管理員密碼",
+    "passwordError": "請輸入密碼。",
+    "submitButton": "儲存",
+    "success": "預設地點已設定！",
+    "genericError": "發生未知錯誤。"
+  },
+  "api": {
+    "serverError": "伺服器設定錯誤。",
+    "invalidPassword": "密碼無效。",
+    "missingFields": "請輸入日期和地點。",
+    "saveError": "儲存時發生錯誤。",
+    "passFieldsError": "請輸入姓名、電話號碼、見面地點和日期。",
+    "passGenerateError": "產生通行證時發生錯誤。"
+  },
+  "pass": {
+    "organizationName": "成炫的  名片",
+    "description": "成炫的  名片",
+    "phoneLabel": "電話",
+    "emailLabel": "電郵",
+    "homepageLabel": "首頁",
+    "homepageUrl": "https://cho.sh",
+    "linkedinLabel": "領英",
+    "instagramLabel": "Instagram",
+    "kakaoLabel": "KakaoTalk",
+    "meetingPlaceLabel": "見面地點",
+    "meetingDateLabel": "見面日期",
+    "lastUpdatedLabel": "最後更新",
+    "vcardNote": "見面地點: {place}\\n見面日期: {date}",
+    "filename": "SunghyunCho_Card"
+  },
+  "dateFormat": "{year}年{month}月{day}日",
+  "common": {
+    "selectCountry": "選擇國家",
+    "searchCountry": "搜尋國家...",
+    "noCountryFound": "找不到國家。",
+    "selectLanguage": "選擇語言"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "title": "Carte  de Sunghyun",
+    "description": "Échangeons nos cartes  Wallet !"
+  },
+  "home": {
+    "title": "Carte  de Sunghyun",
+    "description": "Échangeons nos cartes  Wallet !",
+    "nameLabel": "Quel est votre nom ?",
+    "namePlaceholder": "Jean Dupont",
+    "nameError": "Veuillez entrer votre nom.",
+    "phoneLabel": "Quel est votre numéro de téléphone ? Je le sauvegarderai aussi !",
+    "phoneError": "Veuillez entrer votre numéro de téléphone.",
+    "placeLabel": "Où nous sommes-nous rencontrés ?",
+    "placePlaceholder": "Starbucks à Paris Champs-Élysées",
+    "placeError": "Veuillez indiquer où nous nous sommes rencontrés.",
+    "dateLabel": "Quand nous sommes-nous rencontrés ?",
+    "dateError": "Veuillez sélectionner une date.",
+    "datePicker": "Choisir une date",
+    "submitButton": "Obtenir la carte",
+    "submitLoading": "Création...",
+    "shareButton": "Partager",
+    "shareTitle": "Carte  de Sunghyun",
+    "shareText": "Échangeons nos cartes  Wallet !",
+    "linkCopied": "Lien copié !",
+    "passError": "Échec de la création du pass.",
+    "genericError": "Une erreur s'est produite.",
+    "inAppBrowserTitle": "Veuillez ouvrir dans un navigateur externe",
+    "inAppBrowserNotSupported": "Les navigateurs intégrés ne prennent pas en charge l'intégration  Wallet."
+  },
+  "setDefault": {
+    "title": "Définir le lieu par défaut",
+    "description": "Définir le lieu de rencontre par défaut pour une date spécifique",
+    "dateLabel": "Date",
+    "datePlaceholder": "Sélectionner une date",
+    "dateError": "Veuillez sélectionner une date.",
+    "placeLabel": "Lieu",
+    "placePlaceholder": "Entrer le lieu de rencontre",
+    "placeError": "Veuillez entrer un lieu.",
+    "passwordLabel": "Mot de passe",
+    "passwordPlaceholder": "Mot de passe administrateur",
+    "passwordError": "Veuillez entrer le mot de passe.",
+    "submitButton": "Enregistrer",
+    "success": "Lieu par défaut défini !",
+    "genericError": "Une erreur inconnue s'est produite."
+  },
+  "api": {
+    "serverError": "Erreur de configuration du serveur.",
+    "invalidPassword": "Mot de passe invalide.",
+    "missingFields": "Veuillez entrer la date et le lieu.",
+    "saveError": "Erreur lors de l'enregistrement.",
+    "passFieldsError": "Veuillez entrer le nom, le téléphone, le lieu et la date de rencontre.",
+    "passGenerateError": "Erreur lors de la génération du pass."
+  },
+  "pass": {
+    "organizationName": "Carte  de Sunghyun",
+    "description": "Carte  de Sunghyun",
+    "phoneLabel": "Téléphone",
+    "emailLabel": "E-mail",
+    "homepageLabel": "Site web",
+    "homepageUrl": "https://cho.sh",
+    "linkedinLabel": "LinkedIn",
+    "instagramLabel": "Instagram",
+    "kakaoLabel": "KakaoTalk",
+    "meetingPlaceLabel": "Lieu de rencontre",
+    "meetingDateLabel": "Date de rencontre",
+    "lastUpdatedLabel": "Dernière mise à jour",
+    "vcardNote": "Lieu de rencontre : {place}\\nDate de rencontre : {date}",
+    "filename": "SunghyunCho_Card"
+  },
+  "dateFormat": "{day}/{month}/{year}",
+  "common": {
+    "selectCountry": "Sélectionner le pays",
+    "searchCountry": "Rechercher un pays...",
+    "noCountryFound": "Aucun pays trouvé.",
+    "selectLanguage": "Sélectionner la langue"
+  }
+}

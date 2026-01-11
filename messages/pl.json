@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "title": "Wizytówka  Sunghyuna",
+    "description": "Wymieńmy się wizytówkami  Wallet!"
+  },
+  "home": {
+    "title": "Wizytówka  Sunghyuna",
+    "description": "Wymieńmy się wizytówkami  Wallet!",
+    "nameLabel": "Jak masz na imię?",
+    "namePlaceholder": "Jan Kowalski",
+    "nameError": "Proszę podać imię.",
+    "phoneLabel": "Jaki jest twój numer telefonu? Też go zapiszę!",
+    "phoneError": "Proszę podać numer telefonu.",
+    "placeLabel": "Gdzie się spotkaliśmy?",
+    "placePlaceholder": "Starbucks w Warszawie Centrum",
+    "placeError": "Proszę podać miejsce spotkania.",
+    "dateLabel": "Kiedy się spotkaliśmy?",
+    "dateError": "Proszę wybrać datę.",
+    "datePicker": "Wybierz datę",
+    "submitButton": "Pobierz wizytówkę",
+    "submitLoading": "Tworzenie...",
+    "shareButton": "Udostępnij",
+    "shareTitle": "Wizytówka  Sunghyuna",
+    "shareText": "Wymieńmy się wizytówkami  Wallet!",
+    "linkCopied": "Link skopiowany!",
+    "passError": "Nie udało się utworzyć przepustki.",
+    "genericError": "Wystąpił błąd.",
+    "inAppBrowserTitle": "Otwórz w zewnętrznej przeglądarce",
+    "inAppBrowserNotSupported": "Przeglądarki w aplikacji nie obsługują integracji z  Wallet."
+  },
+  "setDefault": {
+    "title": "Ustaw domyślne miejsce",
+    "description": "Ustaw domyślne miejsce spotkania dla określonej daty",
+    "dateLabel": "Data",
+    "datePlaceholder": "Wybierz datę",
+    "dateError": "Proszę wybrać datę.",
+    "placeLabel": "Miejsce",
+    "placePlaceholder": "Podaj miejsce spotkania",
+    "placeError": "Proszę podać miejsce.",
+    "passwordLabel": "Hasło",
+    "passwordPlaceholder": "Hasło administratora",
+    "passwordError": "Proszę podać hasło.",
+    "submitButton": "Zapisz",
+    "success": "Domyślne miejsce zostało ustawione!",
+    "genericError": "Wystąpił nieznany błąd."
+  },
+  "api": {
+    "serverError": "Błąd konfiguracji serwera.",
+    "invalidPassword": "Nieprawidłowe hasło.",
+    "missingFields": "Proszę podać datę i miejsce.",
+    "saveError": "Błąd podczas zapisywania.",
+    "passFieldsError": "Proszę podać imię, telefon, miejsce i datę spotkania.",
+    "passGenerateError": "Błąd podczas generowania przepustki."
+  },
+  "pass": {
+    "organizationName": "Wizytówka  Sunghyuna",
+    "description": "Wizytówka  Sunghyuna",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-mail",
+    "homepageLabel": "Strona",
+    "homepageUrl": "https://cho.sh",
+    "linkedinLabel": "LinkedIn",
+    "instagramLabel": "Instagram",
+    "kakaoLabel": "KakaoTalk",
+    "meetingPlaceLabel": "Miejsce spotkania",
+    "meetingDateLabel": "Data spotkania",
+    "lastUpdatedLabel": "Ostatnia aktualizacja",
+    "vcardNote": "Miejsce spotkania: {place}\\nData spotkania: {date}",
+    "filename": "SunghyunCho_Card"
+  },
+  "dateFormat": "{day}.{month}.{year}",
+  "common": {
+    "selectCountry": "Wybierz kraj",
+    "searchCountry": "Szukaj kraju...",
+    "noCountryFound": "Nie znaleziono kraju.",
+    "selectLanguage": "Wybierz język"
+  }
+}

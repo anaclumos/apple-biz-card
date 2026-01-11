@@ -1,0 +1,78 @@
+{
+  "metadata": {
+    "title": "Визитка  Сонхёна",
+    "description": "Обменяемся визитками  Wallet!"
+  },
+  "home": {
+    "title": "Визитка  Сонхёна",
+    "description": "Обменяемся визитками  Wallet!",
+    "nameLabel": "Как вас зовут?",
+    "namePlaceholder": "Иван Иванов",
+    "nameError": "Пожалуйста, введите ваше имя.",
+    "phoneLabel": "Ваш номер телефона? Я тоже сохраню!",
+    "phoneError": "Пожалуйста, введите номер телефона.",
+    "placeLabel": "Где мы встретились?",
+    "placePlaceholder": "Старбакс в Москве на Арбате",
+    "placeError": "Пожалуйста, укажите место встречи.",
+    "dateLabel": "Когда мы встретились?",
+    "dateError": "Пожалуйста, выберите дату.",
+    "datePicker": "Выбрать дату",
+    "submitButton": "Получить визитку",
+    "submitLoading": "Создание...",
+    "shareButton": "Поделиться",
+    "shareTitle": "Визитка  Сонхёна",
+    "shareText": "Обменяемся визитками  Wallet!",
+    "linkCopied": "Ссылка скопирована!",
+    "passError": "Не удалось создать пропуск.",
+    "genericError": "Произошла ошибка.",
+    "inAppBrowserTitle": "Откройте во внешнем браузере",
+    "inAppBrowserNotSupported": "Встроенные браузеры не поддерживают интеграцию с  Wallet."
+  },
+  "setDefault": {
+    "title": "Установить место по умолчанию",
+    "description": "Установить место встречи по умолчанию для определённой даты",
+    "dateLabel": "Дата",
+    "datePlaceholder": "Выберите дату",
+    "dateError": "Пожалуйста, выберите дату.",
+    "placeLabel": "Место",
+    "placePlaceholder": "Введите место встречи",
+    "placeError": "Пожалуйста, введите место.",
+    "passwordLabel": "Пароль",
+    "passwordPlaceholder": "Пароль администратора",
+    "passwordError": "Пожалуйста, введите пароль.",
+    "submitButton": "Сохранить",
+    "success": "Место по умолчанию установлено!",
+    "genericError": "Произошла неизвестная ошибка."
+  },
+  "api": {
+    "serverError": "Ошибка конфигурации сервера.",
+    "invalidPassword": "Неверный пароль.",
+    "missingFields": "Пожалуйста, введите дату и место.",
+    "saveError": "Ошибка при сохранении.",
+    "passFieldsError": "Пожалуйста, введите имя, телефон, место и дату встречи.",
+    "passGenerateError": "Ошибка при создании пропуска."
+  },
+  "pass": {
+    "organizationName": "Визитка  Сонхёна",
+    "description": "Визитка  Сонхёна",
+    "phoneLabel": "Телефон",
+    "emailLabel": "Эл. почта",
+    "homepageLabel": "Сайт",
+    "homepageUrl": "https://cho.sh",
+    "linkedinLabel": "LinkedIn",
+    "instagramLabel": "Instagram",
+    "kakaoLabel": "KakaoTalk",
+    "meetingPlaceLabel": "Место встречи",
+    "meetingDateLabel": "Дата встречи",
+    "lastUpdatedLabel": "Обновлено",
+    "vcardNote": "Место встречи: {place}\\nДата встречи: {date}",
+    "filename": "SunghyunCho_Card"
+  },
+  "dateFormat": "{day}.{month}.{year}",
+  "common": {
+    "selectCountry": "Выбрать страну",
+    "searchCountry": "Поиск страны...",
+    "noCountryFound": "Страна не найдена.",
+    "selectLanguage": "Выбрать язык"
+  }
+}

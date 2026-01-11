@@ -7,7 +7,6 @@ import { useLocale, useTranslations } from "next-intl";
 import { parseAsBoolean, parseAsString, useQueryStates } from "nuqs";
 import { Suspense, useEffect, useMemo } from "react";
 import { useForm } from "react-hook-form";
-import { toast } from "sonner";
 import { z } from "zod";
 
 import { LanguageSwitcher } from "@/components/language-switcher";
@@ -195,39 +194,37 @@ function HomeContentInner({ defaultPlace }: HomeContentInnerProps) {
     return tDate("dateFormat", { year, month, day });
   }
 
-  async function onSubmit(data: z.infer<typeof formSchema>) {
+  function onSubmit(data: z.infer<typeof formSchema>) {
     setQueryParams({ loading: true });
 
-    try {
-      const response = await fetch("/api/pass", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(data),
-      });
+    const passDownloadForm = document.createElement("form");
+    passDownloadForm.method = "POST";
+    passDownloadForm.action = "/api/pass";
+    passDownloadForm.style.display = "none";
 
-      if (!response.ok) {
-        const errorData = await response.json();
-        throw new Error(errorData.error || t("passError"));
-      }
+    const fields = {
+      name: data.name,
+      phone: data.phone,
+      meetingPlace: data.meetingPlace,
+      meetingDate: data.meetingDate,
+    };
 
-      const blob = await response.blob();
-      const url = window.URL.createObjectURL(blob);
-      const a = document.createElement("a");
-      a.href = url;
-      a.download = `${t("shareTitle")}.pkpass`;
-      document.body.appendChild(a);
-      a.click();
-      window.URL.revokeObjectURL(url);
-      document.body.removeChild(a);
-
-      form.reset();
-    } catch (err) {
-      toast.error(err instanceof Error ? err.message : t("genericError"));
-    } finally {
-      setQueryParams({ loading: false });
+    for (const [key, value] of Object.entries(fields)) {
+      const input = document.createElement("input");
+      input.type = "hidden";
+      input.name = key;
+      input.value = value;
+      passDownloadForm.appendChild(input);
     }
+
+    document.body.appendChild(passDownloadForm);
+    passDownloadForm.submit();
+    document.body.removeChild(passDownloadForm);
+
+    setTimeout(() => {
+      setQueryParams({ loading: false });
+      form.reset();
+    }, 1000);
   }
 
   return (

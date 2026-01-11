@@ -181,40 +181,6 @@ async function generatePass(
   });
 }
 
-export async function GET(request: NextRequest) {
-  const acceptLanguage = request.headers.get("accept-language") || "";
-  const locale = getLocaleFromAcceptLanguage(acceptLanguage);
-  const messages = getMessages(locale);
-
-  try {
-    const { searchParams } = new URL(request.url);
-    const name = searchParams.get("name");
-    const phone = searchParams.get("phone");
-    const meetingPlace = searchParams.get("meetingPlace");
-    const meetingDateStr = searchParams.get("meetingDate");
-
-    if (!(name && phone && meetingPlace && meetingDateStr)) {
-      return NextResponse.json(
-        { error: messages.api.passFieldsError },
-        { status: 400 }
-      );
-    }
-
-    return await generatePass(
-      name,
-      phone,
-      meetingPlace,
-      meetingDateStr,
-      messages
-    );
-  } catch {
-    return NextResponse.json(
-      { error: messages.api.passGenerateError },
-      { status: 500 }
-    );
-  }
-}
-
 export async function POST(request: NextRequest) {
   const acceptLanguage = request.headers.get("accept-language") || "";
   const locale = getLocaleFromAcceptLanguage(acceptLanguage);
@@ -248,127 +214,13 @@ export async function POST(request: NextRequest) {
       );
     }
 
-    const serialNumber = `CARD-${randomUUID()}`;
-    const meetingDate = new Date(meetingDateStr);
-
-    await db.insert(visitors).values({
+    return await generatePass(
       name,
       phone,
       meetingPlace,
-      meetingDate,
-      serialNumber,
-    });
-
-    const certBase64 = process.env.PASS_CERTIFICATE_PEM_BASE64;
-    const keyBase64 = process.env.PASS_KEY_PEM_BASE64;
-    const wwdrBase64 = process.env.WWDR_CERTIFICATE_PEM_BASE64;
-    const passTypeId = process.env.PASS_TYPE_IDENTIFIER;
-    const teamId = process.env.TEAM_IDENTIFIER;
-
-    if (!(certBase64 && keyBase64 && wwdrBase64 && passTypeId && teamId)) {
-      throw new Error("Missing required environment variables");
-    }
-
-    const signerCert = decodeBase64(certBase64);
-    const signerKey = decodeBase64(keyBase64);
-    const wwdr = decodeBase64ToPem(wwdrBase64, "CERTIFICATE");
-
-    const pass = new PKPass(
-      {
-        "icon.png": getPhotoBuffer(""),
-        "icon@2x.png": getPhotoBuffer("@2x"),
-        "icon@3x.png": getPhotoBuffer("@3x"),
-        "logo.png": getPhotoBuffer(""),
-        "logo@2x.png": getPhotoBuffer("@2x"),
-        "logo@3x.png": getPhotoBuffer("@3x"),
-        "strip.png": getStripBuffer(""),
-        "strip@2x.png": getStripBuffer("@2x"),
-        "strip@3x.png": getStripBuffer("@3x"),
-      },
-      {
-        wwdr,
-        signerCert,
-        signerKey,
-        signerKeyPassphrase: process.env.PASS_KEY_PASSPHRASE || undefined,
-      },
-      {
-        formatVersion: 1,
-        passTypeIdentifier: passTypeId,
-        serialNumber,
-        teamIdentifier: teamId,
-        organizationName: messages.pass.organizationName,
-        description: messages.pass.description,
-        logoText: "cho.sh",
-        foregroundColor: "rgb(128, 190, 122)",
-        backgroundColor: "rgb(29, 37, 27)",
-        labelColor: "rgb(128, 190, 122)",
-      }
+      meetingDateStr,
+      messages
     );
-
-    pass.type = "storeCard";
-
-    pass.secondaryFields.push({
-      key: "phone",
-      label: messages.pass.phoneLabel,
-      value: "+82 10-7332-9837",
-    });
-
-    pass.backFields.push(
-      {
-        key: "email_full",
-        label: messages.pass.emailLabel,
-        value: "hey@cho.sh",
-      },
-      {
-        key: "phone_full",
-        label: messages.pass.phoneLabel,
-        value: "+82 10-7332-9837",
-      },
-      {
-        key: "homepage",
-        label: messages.pass.homepageLabel,
-        value: messages.pass.homepageUrl,
-      },
-      {
-        key: "linkedin",
-        label: messages.pass.linkedinLabel,
-        value: "linkedin.com/in/anaclumos",
-      },
-      {
-        key: "instagram",
-        label: messages.pass.instagramLabel,
-        value: "instagram.com/anaclumos",
-      },
-      {
-        key: "kakao",
-        label: messages.pass.kakaoLabel,
-        value: "https://go.cho.sh/kakao",
-      },
-      {
-        key: "meeting_place_back",
-        label: messages.pass.meetingPlaceLabel,
-        value: meetingPlace,
-      },
-      {
-        key: "meeting_date_back",
-        label: messages.pass.meetingDateLabel,
-        value: formatDate(meetingDate, messages),
-      },
-      {
-        key: "updated",
-        label: messages.pass.lastUpdatedLabel,
-        value: formatDate(new Date(), messages),
-      }
-    );
-
-    const buffer = pass.getAsBuffer();
-
-    return new NextResponse(new Uint8Array(buffer), {
-      headers: {
-        "Content-Type": "application/vnd.apple.pkpass",
-        "Content-Disposition": `attachment; filename="BusinessCard.pkpass"; filename*=UTF-8''${encodeURIComponent(`${messages.pass.filename}.pkpass`)}`,
-      },
-    });
   } catch {
     return NextResponse.json(
       { error: messages.api.passGenerateError },

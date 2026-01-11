@@ -36,6 +36,7 @@ import {
 } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { PhoneInput } from "@/components/ui/phone-input";
+import { withAppleLogo } from "@/lib/apple-logo";
 import { getCountryFromLocale } from "@/lib/phone";
 import { cn } from "@/lib/utils";
 

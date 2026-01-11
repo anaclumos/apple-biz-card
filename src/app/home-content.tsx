@@ -5,7 +5,7 @@ import { parsePhoneNumberWithError } from "libphonenumber-js";
 import { CalendarIcon, Check } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import { parseAsBoolean, parseAsString, useQueryStates } from "nuqs";
-import { Suspense, useEffect, useMemo } from "react";
+import { Suspense, useEffect, useMemo, useState } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 
@@ -97,7 +97,6 @@ const queryParsers = {
   phone: parseAsString.withDefault(""),
   place: parseAsString.withDefault(""),
   date: parseAsString.withDefault(""),
-  loading: parseAsBoolean.withDefault(false),
   inAppDialog: parseAsBoolean.withDefault(false),
   dateDrawer: parseAsBoolean.withDefault(false),
 };
@@ -149,6 +148,7 @@ function HomeContentInner({ defaultPlace }: HomeContentInnerProps) {
   const [queryParams, setQueryParams] = useQueryStates(queryParsers, {
     shallow: false,
   });
+  const [isLoading, setIsLoading] = useState(false);
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -195,7 +195,7 @@ function HomeContentInner({ defaultPlace }: HomeContentInnerProps) {
   }
 
   function onSubmit(data: z.infer<typeof formSchema>) {
-    setQueryParams({ loading: true });
+    setIsLoading(true);
 
     const passDownloadForm = document.createElement("form");
     passDownloadForm.method = "POST";
@@ -222,7 +222,7 @@ function HomeContentInner({ defaultPlace }: HomeContentInnerProps) {
     document.body.removeChild(passDownloadForm);
 
     setTimeout(() => {
-      setQueryParams({ loading: false });
+      setIsLoading(false);
       form.reset();
     }, 1000);
   }
@@ -396,10 +396,10 @@ function HomeContentInner({ defaultPlace }: HomeContentInnerProps) {
               <div className="mx-auto flex max-w-lg flex-col gap-3">
                 <Button
                   className="h-14 w-full rounded-xl text-lg active:scale-[0.98]"
-                  disabled={queryParams.loading}
+                  disabled={isLoading}
                   type="submit"
                 >
-                  {queryParams.loading ? t("submitLoading") : t("submitButton")}
+                  {isLoading ? t("submitLoading") : t("submitButton")}
                 </Button>
               </div>
             </div>

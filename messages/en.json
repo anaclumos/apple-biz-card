@@ -26,7 +26,11 @@
     "passError": "Failed to create pass.",
     "genericError": "An error occurred.",
     "inAppBrowserTitle": "Please open in external browser",
-    "inAppBrowserNotSupported": "In-app browsers do not support  Wallet integration."
+    "inAppBrowserNotSupported": "In-app browsers do not support APPLE_LOGO Wallet integration.",
+    "successDrawerTitle": "Card Ready!",
+    "successDrawerDescription": "Open your Wallet app to see your new card.",
+    "successDrawerOpen": "Open Wallet",
+    "successDrawerDone": "Done"
   },
   "setDefault": {
     "title": "Set Default Place",

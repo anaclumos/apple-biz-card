@@ -68,6 +68,13 @@ const IOS_REGEX = /i(?:phone|pad)/i;
 const URL_SCHEME_REGEX = /^(https?):\/\/(.*)$/;
 const HTTP_REGEX = /^http/;
 
+function isIOS(): boolean {
+  if (typeof navigator === "undefined") {
+    return false;
+  }
+  return IOS_REGEX.test(navigator.userAgent);
+}
+
 function getInAppBrowserRedirectUrl(): string | null {
   const ua = navigator.userAgent;
   const href = location.href;
@@ -149,6 +156,7 @@ function HomeContentInner({ defaultPlace }: HomeContentInnerProps) {
     shallow: false,
   });
   const [isLoading, setIsLoading] = useState(false);
+  const [showSuccessDrawer, setShowSuccessDrawer] = useState(false);
 
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
@@ -224,7 +232,15 @@ function HomeContentInner({ defaultPlace }: HomeContentInnerProps) {
     setTimeout(() => {
       setIsLoading(false);
       form.reset();
+      setShowSuccessDrawer(true);
     }, 1000);
+  }
+
+  function handleOpenWallet() {
+    if (isIOS()) {
+      window.location.href = "shoebox://";
+    }
+    setShowSuccessDrawer(false);
   }
 
   return (
@@ -422,6 +438,34 @@ function HomeContentInner({ defaultPlace }: HomeContentInnerProps) {
           </DialogHeader>
         </DialogContent>
       </Dialog>
+
+      <Drawer onOpenChange={setShowSuccessDrawer} open={showSuccessDrawer}>
+        <DrawerContent>
+          <DrawerHeader className="text-center">
+            <DrawerTitle className="text-2xl">
+              {t("successDrawerTitle")}
+            </DrawerTitle>
+            <p className="text-foreground">{t("successDrawerDescription")}</p>
+          </DrawerHeader>
+          <div className="flex flex-col gap-3 p-6 pt-2">
+            {isIOS() && (
+              <Button
+                className="h-14 w-full rounded-xl text-lg"
+                onClick={handleOpenWallet}
+              >
+                {t("successDrawerOpen")}
+              </Button>
+            )}
+            <Button
+              className="h-14 w-full rounded-xl text-lg"
+              onClick={() => setShowSuccessDrawer(false)}
+              variant={isIOS() ? "outline" : "default"}
+            >
+              {t("successDrawerDone")}
+            </Button>
+          </div>
+        </DrawerContent>
+      </Drawer>
     </main>
   );
 }

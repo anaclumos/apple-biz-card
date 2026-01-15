@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "title": "成炫的 APPLE_LOGO 名片",
-    "description": "交换APPLE_LOGO Wallet名片吧！"
+    "title": "成炫的  名片",
+    "description": "交换 Wallet名片吧！"
   },
   "home": {
-    "title": "成炫的 APPLE_LOGO 名片",
-    "description": "交换APPLE_LOGO Wallet名片吧！",
+    "title": "成炫的  名片",
+    "description": "交换 Wallet名片吧！",
     "nameLabel": "您的名字是？",
     "namePlaceholder": "张三",
     "nameError": "请输入您的名字。",
@@ -20,16 +20,16 @@
     "submitButton": "获取名片",
     "submitLoading": "创建中...",
     "shareButton": "分享",
-    "shareTitle": "成炫的 APPLE_LOGO 名片",
-    "shareText": "交换APPLE_LOGO Wallet名片吧！",
+    "shareTitle": "成炫的  名片",
+    "shareText": "交换 Wallet名片吧！",
     "linkCopied": "链接已复制！",
     "passError": "创建通行证失败。",
     "genericError": "发生错误。",
     "inAppBrowserTitle": "请在外部浏览器中打开",
     "inAppBrowserNotSupported": "应用内浏览器不支持 Wallet集成。",
     "successDrawerTitle": "名片准备就绪！",
-    "successDrawerDescription": "打开APPLE_LOGO Wallet查看新名片。",
-    "successDrawerOpen": "打开APPLE_LOGO Wallet",
+    "successDrawerDescription": "打开 Wallet查看新名片。",
+    "successDrawerOpen": "打开 Wallet",
     "successDrawerDone": "完成"
   },
   "setDefault": {
@@ -57,8 +57,8 @@
     "passGenerateError": "生成通行证时发生错误。"
   },
   "pass": {
-    "organizationName": "成炫的 APPLE_LOGO 名片",
-    "description": "成炫的 APPLE_LOGO 名片",
+    "organizationName": "成炫的  名片",
+    "description": "成炫的  名片",
     "phoneLabel": "电话",
     "emailLabel": "邮箱",
     "homepageLabel": "主页",

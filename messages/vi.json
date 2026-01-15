@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "title": "Danh thiếp APPLE_LOGO của Sunghyun",
-    "description": "Hãy trao đổi danh thiếp APPLE_LOGO Wallet!"
+    "title": "Danh thiếp  của Sunghyun",
+    "description": "Hãy trao đổi danh thiếp  Wallet!"
   },
   "home": {
-    "title": "Danh thiếp APPLE_LOGO của Sunghyun",
-    "description": "Hãy trao đổi danh thiếp APPLE_LOGO Wallet!",
+    "title": "Danh thiếp  của Sunghyun",
+    "description": "Hãy trao đổi danh thiếp  Wallet!",
     "nameLabel": "Tên bạn là gì?",
     "namePlaceholder": "Nguyễn Văn A",
     "nameError": "Vui lòng nhập tên của bạn.",
@@ -20,16 +20,16 @@
     "submitButton": "Nhận danh thiếp",
     "submitLoading": "Đang tạo...",
     "shareButton": "Chia sẻ",
-    "shareTitle": "Danh thiếp APPLE_LOGO của Sunghyun",
-    "shareText": "Hãy trao đổi danh thiếp APPLE_LOGO Wallet!",
+    "shareTitle": "Danh thiếp  của Sunghyun",
+    "shareText": "Hãy trao đổi danh thiếp  Wallet!",
     "linkCopied": "Đã sao chép liên kết!",
     "passError": "Không thể tạo thẻ.",
     "genericError": "Đã xảy ra lỗi.",
     "inAppBrowserTitle": "Vui lòng mở trong trình duyệt ngoài",
     "inAppBrowserNotSupported": "Trình duyệt trong ứng dụng không hỗ trợ tích hợp  Wallet.",
     "successDrawerTitle": "Danh thiếp đã sẵn sàng!",
-    "successDrawerDescription": "Mở APPLE_LOGO Wallet để xem danh thiếp mới của bạn.",
-    "successDrawerOpen": "Mở APPLE_LOGO Wallet",
+    "successDrawerDescription": "Mở  Wallet để xem danh thiếp mới của bạn.",
+    "successDrawerOpen": "Mở  Wallet",
     "successDrawerDone": "Xong"
   },
   "setDefault": {
@@ -57,8 +57,8 @@
     "passGenerateError": "Lỗi khi tạo thẻ."
   },
   "pass": {
-    "organizationName": "Danh thiếp APPLE_LOGO của Sunghyun",
-    "description": "Danh thiếp APPLE_LOGO của Sunghyun",
+    "organizationName": "Danh thiếp  của Sunghyun",
+    "description": "Danh thiếp  của Sunghyun",
     "phoneLabel": "Điện thoại",
     "emailLabel": "Email",
     "homepageLabel": "Trang web",

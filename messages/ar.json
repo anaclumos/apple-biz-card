@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "title": "بطاقة APPLE_LOGO سونغهيون",
-    "description": "لنتبادل بطاقات APPLE_LOGO Wallet!"
+    "title": "بطاقة  سونغهيون",
+    "description": "لنتبادل بطاقات  Wallet!"
   },
   "home": {
-    "title": "بطاقة APPLE_LOGO سونغهيون",
-    "description": "لنتبادل بطاقات APPLE_LOGO Wallet!",
+    "title": "بطاقة  سونغهيون",
+    "description": "لنتبادل بطاقات  Wallet!",
     "nameLabel": "ما اسمك؟",
     "namePlaceholder": "أحمد محمد",
     "nameError": "الرجاء إدخال اسمك.",
@@ -20,16 +20,16 @@
     "submitButton": "احصل على البطاقة",
     "submitLoading": "جارٍ الإنشاء...",
     "shareButton": "مشاركة",
-    "shareTitle": "بطاقة APPLE_LOGO سونغهيون",
-    "shareText": "لنتبادل بطاقات APPLE_LOGO Wallet!",
+    "shareTitle": "بطاقة  سونغهيون",
+    "shareText": "لنتبادل بطاقات  Wallet!",
     "linkCopied": "تم نسخ الرابط!",
     "passError": "فشل في إنشاء البطاقة.",
     "genericError": "حدث خطأ.",
     "inAppBrowserTitle": "يرجى الفتح في متصفح خارجي",
     "inAppBrowserNotSupported": "المتصفحات المدمجة لا تدعم تكامل  Wallet.",
     "successDrawerTitle": "البطاقة جاهزة!",
-    "successDrawerDescription": "افتح APPLE_LOGO Wallet لرؤية بطاقتك الجديدة.",
-    "successDrawerOpen": "فتح APPLE_LOGO Wallet",
+    "successDrawerDescription": "افتح  Wallet لرؤية بطاقتك الجديدة.",
+    "successDrawerOpen": "فتح  Wallet",
     "successDrawerDone": "تم"
   },
   "setDefault": {
@@ -57,8 +57,8 @@
     "passGenerateError": "حدث خطأ أثناء إنشاء البطاقة."
   },
   "pass": {
-    "organizationName": "بطاقة APPLE_LOGO سونغهيون",
-    "description": "بطاقة APPLE_LOGO سونغهيون",
+    "organizationName": "بطاقة  سونغهيون",
+    "description": "بطاقة  سونغهيون",
     "phoneLabel": "الهاتف",
     "emailLabel": "البريد الإلكتروني",
     "homepageLabel": "الموقع",

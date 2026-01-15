@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "title": "Sunghyun's APPLE_LOGO Visitekaartje",
-    "description": "Laten we APPLE_LOGO Wallet visitekaartjes uitwisselen!"
+    "title": "Sunghyun's  Visitekaartje",
+    "description": "Laten we  Wallet visitekaartjes uitwisselen!"
   },
   "home": {
-    "title": "Sunghyun's APPLE_LOGO Visitekaartje",
-    "description": "Laten we APPLE_LOGO Wallet visitekaartjes uitwisselen!",
+    "title": "Sunghyun's  Visitekaartje",
+    "description": "Laten we  Wallet visitekaartjes uitwisselen!",
     "nameLabel": "Wat is je naam?",
     "namePlaceholder": "Jan de Vries",
     "nameError": "Voer je naam in.",
@@ -20,16 +20,16 @@
     "submitButton": "Kaartje ophalen",
     "submitLoading": "Aanmaken...",
     "shareButton": "Delen",
-    "shareTitle": "Sunghyun's APPLE_LOGO Visitekaartje",
-    "shareText": "Laten we APPLE_LOGO Wallet visitekaartjes uitwisselen!",
+    "shareTitle": "Sunghyun's  Visitekaartje",
+    "shareText": "Laten we  Wallet visitekaartjes uitwisselen!",
     "linkCopied": "Link gekopieerd!",
     "passError": "Kon pas niet aanmaken.",
     "genericError": "Er is een fout opgetreden.",
     "inAppBrowserTitle": "Open in externe browser",
     "inAppBrowserNotSupported": "In-app browsers ondersteunen geen  Wallet integratie.",
     "successDrawerTitle": "Kaartje klaar!",
-    "successDrawerDescription": "Open APPLE_LOGO Wallet om je nieuwe kaartje te bekijken.",
-    "successDrawerOpen": "Open APPLE_LOGO Wallet",
+    "successDrawerDescription": "Open  Wallet om je nieuwe kaartje te bekijken.",
+    "successDrawerOpen": "Open  Wallet",
     "successDrawerDone": "Klaar"
   },
   "setDefault": {
@@ -57,8 +57,8 @@
     "passGenerateError": "Fout bij genereren van pas."
   },
   "pass": {
-    "organizationName": "Sunghyun's APPLE_LOGO Visitekaartje",
-    "description": "Sunghyun's APPLE_LOGO Visitekaartje",
+    "organizationName": "Sunghyun's  Visitekaartje",
+    "description": "Sunghyun's  Visitekaartje",
     "phoneLabel": "Telefoon",
     "emailLabel": "E-mail",
     "homepageLabel": "Website",

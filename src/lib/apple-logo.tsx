@@ -18,7 +18,7 @@ export function AppleLogo({ className }: { className?: string }) {
 }
 
 export function withAppleLogo(text: string): ReactNode[] {
-  const parts = text.split("APPLE_LOGO");
+  const parts = text.split("");
   const result: ReactNode[] = [];
 
   for (let i = 0; i < parts.length; i++) {

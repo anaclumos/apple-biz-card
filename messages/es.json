@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "title": "Tarjeta APPLE_LOGO de Sunghyun",
-    "description": "¡Intercambiemos tarjetas de APPLE_LOGO Wallet!"
+    "title": "Tarjeta  de Sunghyun",
+    "description": "¡Intercambiemos tarjetas de  Wallet!"
   },
   "home": {
-    "title": "Tarjeta APPLE_LOGO de Sunghyun",
-    "description": "¡Intercambiemos tarjetas de APPLE_LOGO Wallet!",
+    "title": "Tarjeta  de Sunghyun",
+    "description": "¡Intercambiemos tarjetas de  Wallet!",
     "nameLabel": "¿Cuál es tu nombre?",
     "namePlaceholder": "Juan García",
     "nameError": "Por favor, introduce tu nombre.",
@@ -20,16 +20,16 @@
     "submitButton": "Obtener tarjeta",
     "submitLoading": "Creando...",
     "shareButton": "Compartir",
-    "shareTitle": "Tarjeta APPLE_LOGO de Sunghyun",
-    "shareText": "¡Intercambiemos tarjetas de APPLE_LOGO Wallet!",
+    "shareTitle": "Tarjeta  de Sunghyun",
+    "shareText": "¡Intercambiemos tarjetas de  Wallet!",
     "linkCopied": "¡Enlace copiado!",
     "passError": "Error al crear el pase.",
     "genericError": "Ocurrió un error.",
     "inAppBrowserTitle": "Por favor, abre en un navegador externo",
     "inAppBrowserNotSupported": "Los navegadores integrados no admiten la integración con  Wallet.",
     "successDrawerTitle": "¡Tarjeta lista!",
-    "successDrawerDescription": "Abre APPLE_LOGO Wallet para ver tu nueva tarjeta.",
-    "successDrawerOpen": "Abrir APPLE_LOGO Wallet",
+    "successDrawerDescription": "Abre  Wallet para ver tu nueva tarjeta.",
+    "successDrawerOpen": "Abrir  Wallet",
     "successDrawerDone": "Listo"
   },
   "setDefault": {
@@ -57,8 +57,8 @@
     "passGenerateError": "Error al generar el pase."
   },
   "pass": {
-    "organizationName": "Tarjeta APPLE_LOGO de Sunghyun",
-    "description": "Tarjeta APPLE_LOGO de Sunghyun",
+    "organizationName": "Tarjeta  de Sunghyun",
+    "description": "Tarjeta  de Sunghyun",
     "phoneLabel": "Teléfono",
     "emailLabel": "Correo",
     "homepageLabel": "Página web",

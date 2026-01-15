@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "title": "Carte APPLE_LOGO de Sunghyun",
-    "description": "Échangeons nos cartes APPLE_LOGO Wallet !"
+    "title": "Carte  de Sunghyun",
+    "description": "Échangeons nos cartes  Wallet !"
   },
   "home": {
-    "title": "Carte APPLE_LOGO de Sunghyun",
-    "description": "Échangeons nos cartes APPLE_LOGO Wallet !",
+    "title": "Carte  de Sunghyun",
+    "description": "Échangeons nos cartes  Wallet !",
     "nameLabel": "Quel est votre nom ?",
     "namePlaceholder": "Jean Dupont",
     "nameError": "Veuillez entrer votre nom.",
@@ -20,16 +20,16 @@
     "submitButton": "Obtenir la carte",
     "submitLoading": "Création...",
     "shareButton": "Partager",
-    "shareTitle": "Carte APPLE_LOGO de Sunghyun",
-    "shareText": "Échangeons nos cartes APPLE_LOGO Wallet !",
+    "shareTitle": "Carte  de Sunghyun",
+    "shareText": "Échangeons nos cartes  Wallet !",
     "linkCopied": "Lien copié !",
     "passError": "Échec de la création du pass.",
     "genericError": "Une erreur s'est produite.",
     "inAppBrowserTitle": "Veuillez ouvrir dans un navigateur externe",
     "inAppBrowserNotSupported": "Les navigateurs intégrés ne prennent pas en charge l'intégration  Wallet.",
     "successDrawerTitle": "Carte prête !",
-    "successDrawerDescription": "Ouvrez APPLE_LOGO Wallet pour voir votre nouvelle carte.",
-    "successDrawerOpen": "Ouvrir APPLE_LOGO Wallet",
+    "successDrawerDescription": "Ouvrez  Wallet pour voir votre nouvelle carte.",
+    "successDrawerOpen": "Ouvrir  Wallet",
     "successDrawerDone": "Terminé"
   },
   "setDefault": {
@@ -57,8 +57,8 @@
     "passGenerateError": "Erreur lors de la génération du pass."
   },
   "pass": {
-    "organizationName": "Carte APPLE_LOGO de Sunghyun",
-    "description": "Carte APPLE_LOGO de Sunghyun",
+    "organizationName": "Carte  de Sunghyun",
+    "description": "Carte  de Sunghyun",
     "phoneLabel": "Téléphone",
     "emailLabel": "E-mail",
     "homepageLabel": "Site web",

@@ -1,11 +1,11 @@
 {
   "metadata": {
-    "title": "Wizytówka APPLE_LOGO Sunghyuna",
-    "description": "Wymieńmy się wizytówkami APPLE_LOGO Wallet!"
+    "title": "Wizytówka  Sunghyuna",
+    "description": "Wymieńmy się wizytówkami  Wallet!"
   },
   "home": {
-    "title": "Wizytówka APPLE_LOGO Sunghyuna",
-    "description": "Wymieńmy się wizytówkami APPLE_LOGO Wallet!",
+    "title": "Wizytówka  Sunghyuna",
+    "description": "Wymieńmy się wizytówkami  Wallet!",
     "nameLabel": "Jak masz na imię?",
     "namePlaceholder": "Jan Kowalski",
     "nameError": "Proszę podać imię.",
@@ -20,16 +20,16 @@
     "submitButton": "Pobierz wizytówkę",
     "submitLoading": "Tworzenie...",
     "shareButton": "Udostępnij",
-    "shareTitle": "Wizytówka APPLE_LOGO Sunghyuna",
-    "shareText": "Wymieńmy się wizytówkami APPLE_LOGO Wallet!",
+    "shareTitle": "Wizytówka  Sunghyuna",
+    "shareText": "Wymieńmy się wizytówkami  Wallet!",
     "linkCopied": "Link skopiowany!",
     "passError": "Nie udało się utworzyć przepustki.",
     "genericError": "Wystąpił błąd.",
     "inAppBrowserTitle": "Otwórz w zewnętrznej przeglądarce",
     "inAppBrowserNotSupported": "Przeglądarki w aplikacji nie obsługują integracji z  Wallet.",
     "successDrawerTitle": "Wizytówka gotowa!",
-    "successDrawerDescription": "Otwórz APPLE_LOGO Wallet, aby zobaczyć nową wizytówkę.",
-    "successDrawerOpen": "Otwórz APPLE_LOGO Wallet",
+    "successDrawerDescription": "Otwórz  Wallet, aby zobaczyć nową wizytówkę.",
+    "successDrawerOpen": "Otwórz  Wallet",
     "successDrawerDone": "Gotowe"
   },
   "setDefault": {
@@ -57,8 +57,8 @@
     "passGenerateError": "Błąd podczas generowania przepustki."
   },
   "pass": {
-    "organizationName": "Wizytówka APPLE_LOGO Sunghyuna",
-    "description": "Wizytówka APPLE_LOGO Sunghyuna",
+    "organizationName": "Wizytówka  Sunghyuna",
+    "description": "Wizytówka  Sunghyuna",
     "phoneLabel": "Telefon",
     "emailLabel": "E-mail",
     "homepageLabel": "Strona",

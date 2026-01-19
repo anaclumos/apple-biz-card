@@ -33,28 +33,28 @@
     "successDrawerDone": "Selesai"
   },
   "setDefault": {
-    "title": "Atur Tempat Default",
-    "description": "Atur tempat pertemuan default untuk tanggal tertentu",
+    "title": "Atur Lokasi Default Anda",
+    "description": "Mudahkan kontak Anda—atur di mana Anda akan berada pada tanggal tertentu",
     "dateLabel": "Tanggal",
     "datePlaceholder": "Pilih tanggal",
-    "dateError": "Silakan pilih tanggal.",
+    "dateError": "Tanggal mana yang ingin Anda atur?",
     "placeLabel": "Tempat",
     "placePlaceholder": "Masukkan tempat pertemuan",
-    "placeError": "Silakan masukkan tempat.",
+    "placeError": "Di mana Anda akan bertemu orang-orang?",
     "passwordLabel": "Kata Sandi",
     "passwordPlaceholder": "Kata sandi admin",
-    "passwordError": "Silakan masukkan kata sandi.",
+    "passwordError": "Kata sandi admin diperlukan",
     "submitButton": "Simpan",
-    "success": "Tempat default telah diatur!",
-    "genericError": "Terjadi kesalahan yang tidak diketahui."
+    "success": "✨ Lokasi default disimpan!",
+    "genericError": "Ups! Ada yang salah. Silakan coba lagi."
   },
   "api": {
-    "serverError": "Kesalahan konfigurasi server.",
-    "invalidPassword": "Kata sandi tidak valid.",
-    "missingFields": "Silakan masukkan tanggal dan tempat.",
-    "saveError": "Terjadi kesalahan saat menyimpan.",
-    "passFieldsError": "Silakan masukkan nama, telepon, tempat, dan tanggal pertemuan.",
-    "passGenerateError": "Terjadi kesalahan saat membuat pass."
+    "serverError": "Kami sedang mengalami kendala teknis. Silakan coba lagi sesaat lagi.",
+    "invalidPassword": "Kata sandi tersebut tidak cocok. Silakan coba lagi.",
+    "missingFields": "Kami memerlukan tanggal dan lokasi untuk melanjutkan.",
+    "saveError": "Kami tidak dapat menyimpan itu. Silakan coba lagi.",
+    "passFieldsError": "Silakan isi semua bidang: nama, telepon, lokasi, dan tanggal.",
+    "passGenerateError": "Kami tidak dapat membuat kartu Anda saat ini. Silakan coba lagi."
   },
   "pass": {
     "organizationName": "Kartu Nama  Sunghyun",

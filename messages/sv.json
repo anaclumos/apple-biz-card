@@ -33,28 +33,28 @@
     "successDrawerDone": "Klar"
   },
   "setDefault": {
-    "title": "Ange standardplats",
-    "description": "Ange standardmötesplats för ett specifikt datum",
+    "title": "Ange din standardplats",
+    "description": "Gör det enkelt för dina kontakter — ange var du kommer att vara på specifika datum",
     "dateLabel": "Datum",
     "datePlaceholder": "Välj datum",
-    "dateError": "Vänligen välj ett datum.",
+    "dateError": "Vilket datum vill du ange?",
     "placeLabel": "Plats",
     "placePlaceholder": "Ange mötesplats",
-    "placeError": "Vänligen ange en plats.",
+    "placeError": "Var kommer du att träffa folk?",
     "passwordLabel": "Lösenord",
     "passwordPlaceholder": "Administratörslösenord",
-    "passwordError": "Vänligen ange lösenord.",
+    "passwordError": "Admin-lösenord krävs",
     "submitButton": "Spara",
-    "success": "Standardplats har angetts!",
-    "genericError": "Ett okänt fel uppstod."
+    "success": "✨ Standardplats sparad!",
+    "genericError": "Hoppsan! Något gick fel. Försök igen."
   },
   "api": {
-    "serverError": "Serverkonfigurationsfel.",
-    "invalidPassword": "Ogiltigt lösenord.",
-    "missingFields": "Vänligen ange datum och plats.",
-    "saveError": "Fel vid sparande.",
-    "passFieldsError": "Vänligen ange namn, telefon, mötesplats och datum.",
-    "passGenerateError": "Fel vid generering av pass."
+    "serverError": "Vi har tekniska problem. Försök igen om en stund.",
+    "invalidPassword": "Lösenordet stämmer inte. Försök igen.",
+    "missingFields": "Vi behöver både datum och plats för att fortsätta.",
+    "saveError": "Vi kunde inte spara. Försök igen.",
+    "passFieldsError": "Fyll i alla fält: namn, telefon, plats och datum.",
+    "passGenerateError": "Vi kunde inte skapa ditt kort just nu. Försök igen."
   },
   "pass": {
     "organizationName": "Sunghyuns  Visitkort",

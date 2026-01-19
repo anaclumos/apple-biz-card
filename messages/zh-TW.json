@@ -33,28 +33,28 @@
     "successDrawerDone": "完成"
   },
   "setDefault": {
-    "title": "設定預設地點",
-    "description": "為特定日期設定預設見面地點",
+    "title": "設定您的預設地點",
+    "description": "讓聯繫變得更簡單——設定您在特定日期的所在地",
     "dateLabel": "日期",
     "datePlaceholder": "選擇日期",
-    "dateError": "請選擇日期。",
+    "dateError": "您想設定哪一天的地點？",
     "placeLabel": "地點",
     "placePlaceholder": "輸入見面地點",
-    "placeError": "請輸入地點。",
+    "placeError": "您打算在哪裡見大家？",
     "passwordLabel": "密碼",
     "passwordPlaceholder": "管理員密碼",
-    "passwordError": "請輸入密碼。",
+    "passwordError": "需要管理員密碼",
     "submitButton": "儲存",
-    "success": "預設地點已設定！",
-    "genericError": "發生未知錯誤。"
+    "success": "✨ 預設地點已儲存！",
+    "genericError": "哎呀！出錯了。請再試一次。"
   },
   "api": {
-    "serverError": "伺服器設定錯誤。",
-    "invalidPassword": "密碼無效。",
-    "missingFields": "請輸入日期和地點。",
-    "saveError": "儲存時發生錯誤。",
-    "passFieldsError": "請輸入姓名、電話號碼、見面地點和日期。",
-    "passGenerateError": "產生通行證時發生錯誤。"
+    "serverError": "抱歉，我們遇到了技術困難。請稍後重試。",
+    "invalidPassword": "密碼不匹配，請再試一次。",
+    "missingFields": "我們需要日期和地點才能繼續。",
+    "saveError": "無法儲存，請再試一次。",
+    "passFieldsError": "請填寫所有資訊：姓名、電話、地點和日期。",
+    "passGenerateError": "暫時無法建立您的名片，請稍後重試。"
   },
   "pass": {
     "organizationName": "成炫的  名片",

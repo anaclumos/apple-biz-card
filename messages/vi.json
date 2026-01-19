@@ -33,28 +33,28 @@
     "successDrawerDone": "Xong"
   },
   "setDefault": {
-    "title": "Đặt địa điểm mặc định",
-    "description": "Đặt địa điểm gặp mặt mặc định cho một ngày cụ thể",
+    "title": "Thiết lập địa điểm mặc định của bạn",
+    "description": "Tạo sự thuận tiện cho danh bạ của bạn — hãy đặt nơi bạn sẽ ở vào những ngày cụ thể",
     "dateLabel": "Ngày",
     "datePlaceholder": "Chọn ngày",
-    "dateError": "Vui lòng chọn ngày.",
+    "dateError": "Bạn muốn thiết lập cho ngày nào?",
     "placeLabel": "Địa điểm",
     "placePlaceholder": "Nhập địa điểm gặp mặt",
-    "placeError": "Vui lòng nhập địa điểm.",
+    "placeError": "Bạn sẽ gặp gỡ mọi người ở đâu?",
     "passwordLabel": "Mật khẩu",
     "passwordPlaceholder": "Mật khẩu quản trị",
-    "passwordError": "Vui lòng nhập mật khẩu.",
+    "passwordError": "Yêu cầu mật khẩu quản trị",
     "submitButton": "Lưu",
-    "success": "Đã đặt địa điểm mặc định!",
-    "genericError": "Đã xảy ra lỗi không xác định."
+    "success": "✨ Đã lưu địa điểm mặc định!",
+    "genericError": "Ôi! Có lỗi xảy ra. Vui lòng thử lại nhé."
   },
   "api": {
-    "serverError": "Lỗi cấu hình máy chủ.",
-    "invalidPassword": "Mật khẩu không hợp lệ.",
-    "missingFields": "Vui lòng nhập ngày và địa điểm.",
-    "saveError": "Lỗi khi lưu.",
-    "passFieldsError": "Vui lòng nhập tên, số điện thoại, địa điểm và ngày gặp mặt.",
-    "passGenerateError": "Lỗi khi tạo thẻ."
+    "serverError": "Chúng tôi đang gặp sự cố kỹ thuật. Vui lòng thử lại sau giây lát.",
+    "invalidPassword": "Mật khẩu không khớp. Vui lòng thử lại.",
+    "missingFields": "Chúng tôi cần cả ngày và địa điểm để tiếp tục.",
+    "saveError": "Không thể lưu thông tin. Vui lòng thử lại.",
+    "passFieldsError": "Vui lòng điền đầy đủ các trường: tên, số điện thoại, địa điểm và ngày.",
+    "passGenerateError": "Hiện tại không thể tạo thẻ của bạn. Vui lòng thử lại."
   },
   "pass": {
     "organizationName": "Danh thiếp  của Sunghyun",

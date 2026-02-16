@@ -11,6 +11,8 @@
     "nameError": "We'd love to know your name!",
     "phoneLabel": "Let's stay in touch! Share your number?",
     "phoneError": "May we have your number to stay connected?",
+    "phoneSkip": "Skip",
+    "phoneUnskip": "Add phone number",
     "placeLabel": "Where did our paths cross?",
     "placePlaceholder": "Starbucks in Seoul Gangnam",
     "placeError": "Help us remember where we met!",
@@ -53,7 +55,7 @@
     "invalidPassword": "That password doesn't match. Please try again.",
     "missingFields": "We need both the date and location to continue.",
     "saveError": "We couldn't save that. Please try again.",
-    "passFieldsError": "Please fill in all fields: name, phone, location, and date.",
+    "passFieldsError": "Please fill in all required fields: name, location, and date.",
     "passGenerateError": "We couldn't create your card right now. Please try again."
   },
   "pass": {

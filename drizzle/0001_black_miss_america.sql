@@ -1,0 +1,1 @@
+ALTER TABLE "apple_biz_card"."visitors" ALTER COLUMN "phone" DROP NOT NULL;

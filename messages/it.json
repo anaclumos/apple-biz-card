@@ -11,6 +11,8 @@
     "nameError": "Ci piacerebbe molto conoscere il tuo nome!",
     "phoneLabel": "Restiamo in contatto! Ti andrebbe di condividere il tuo numero?",
     "phoneError": "Per rimanere connessi, abbiamo bisogno del tuo numero.",
+    "phoneSkip": "Salta",
+    "phoneUnskip": "Aggiungi telefono",
     "placeLabel": "Dove si sono incrociate le nostre strade?",
     "placePlaceholder": "Starbucks a Milano Duomo",
     "placeError": "Aiutaci a ricordare dove ci siamo incontrati!",
@@ -53,7 +55,7 @@
     "invalidPassword": "Quella password non corrisponde. Per favore riprova.",
     "missingFields": "Abbiamo bisogno sia della data che della posizione per continuare.",
     "saveError": "Non è stato possibile salvare. Per favore riprova.",
-    "passFieldsError": "Per favore compila tutti i campi: nome, telefono, posizione e data.",
+    "passFieldsError": "Per favore compila tutti i campi obbligatori: nome, posizione e data.",
     "passGenerateError": "Non è stato possibile creare la tua carta in questo momento. Per favore riprova."
   },
   "pass": {

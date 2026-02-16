@@ -5,7 +5,7 @@ import { parsePhoneNumberWithError } from "libphonenumber-js";
 import { CalendarIcon, Check } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import { parseAsBoolean, parseAsString, useQueryStates } from "nuqs";
-import { Suspense, useEffect, useMemo, useState } from "react";
+import { Suspense, useEffect, useMemo, useRef, useState } from "react";
 import { useForm } from "react-hook-form";
 import { z } from "zod";
 
@@ -119,34 +119,47 @@ function HomeContentInner({ defaultPlace }: HomeContentInnerProps) {
   const locale = useLocale();
   const defaultCountry = getCountryFromLocale(locale);
 
+  const [isPhoneSkipped, setIsPhoneSkipped] = useState(false);
+  const phoneSkippedRef = useRef(false);
+  phoneSkippedRef.current = isPhoneSkipped;
+
   const formSchema = useMemo(
     () =>
       z.object({
         name: z.string().min(1, t("nameError")),
-        phone: z
-          .string()
-          .min(1, t("phoneError"))
-          .transform((value, ctx) => {
-            try {
-              const phoneNumber = parsePhoneNumberWithError(value, {
-                defaultCountry,
-              });
-              if (!phoneNumber.isValid()) {
-                ctx.addIssue({
-                  code: z.ZodIssueCode.custom,
-                  message: t("phoneError"),
-                });
-                return z.NEVER;
-              }
-              return phoneNumber.format("E.164");
-            } catch {
+        phone: z.string().transform((value, ctx) => {
+          if (phoneSkippedRef.current) {
+            return "";
+          }
+
+          if (!value || value.trim() === "") {
+            ctx.addIssue({
+              code: z.ZodIssueCode.custom,
+              message: t("phoneError"),
+            });
+            return z.NEVER;
+          }
+
+          try {
+            const phoneNumber = parsePhoneNumberWithError(value, {
+              defaultCountry,
+            });
+            if (!phoneNumber.isValid()) {
               ctx.addIssue({
                 code: z.ZodIssueCode.custom,
                 message: t("phoneError"),
               });
               return z.NEVER;
             }
-          }),
+            return phoneNumber.format("E.164");
+          } catch {
+            ctx.addIssue({
+              code: z.ZodIssueCode.custom,
+              message: t("phoneError"),
+            });
+            return z.NEVER;
+          }
+        }),
         meetingPlace: z.string().min(1, t("placeError")),
         meetingDate: z.string().min(1, t("dateError")),
       }),
@@ -193,7 +206,7 @@ function HomeContentInner({ defaultPlace }: HomeContentInnerProps) {
       form.setFocus("meetingPlace");
     } else if (!values.name) {
       form.setFocus("name");
-    } else if (!values.phone) {
+    } else if (!(values.phone || phoneSkippedRef.current)) {
       form.setFocus("phone");
     }
   }, [form]);
@@ -390,20 +403,39 @@ function HomeContentInner({ defaultPlace }: HomeContentInnerProps) {
               name="phone"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel>{t("phoneLabel")}</FormLabel>
-                  <FormControl>
-                    <PhoneInput
-                      defaultCountry={defaultCountry}
-                      filled={!!field.value}
-                      international
-                      onBlur={() => {
-                        field.onBlur();
-                        syncToUrl();
+                  <div className="flex items-center justify-between">
+                    <FormLabel>{t("phoneLabel")}</FormLabel>
+                    <button
+                      className="text-muted-foreground text-sm transition-colors hover:text-foreground"
+                      onClick={() => {
+                        const newSkipped = !isPhoneSkipped;
+                        setIsPhoneSkipped(newSkipped);
+                        phoneSkippedRef.current = newSkipped;
+                        if (newSkipped) {
+                          field.onChange("");
+                          form.clearErrors("phone");
+                        }
                       }}
-                      onChange={field.onChange}
-                      value={field.value}
-                    />
-                  </FormControl>
+                      type="button"
+                    >
+                      {isPhoneSkipped ? t("phoneUnskip") : t("phoneSkip")}
+                    </button>
+                  </div>
+                  {!isPhoneSkipped && (
+                    <FormControl>
+                      <PhoneInput
+                        defaultCountry={defaultCountry}
+                        filled={!!field.value}
+                        international
+                        onBlur={() => {
+                          field.onBlur();
+                          syncToUrl();
+                        }}
+                        onChange={field.onChange}
+                        value={field.value}
+                      />
+                    </FormControl>
+                  )}
                   <FormMessage />
                 </FormItem>
               )}

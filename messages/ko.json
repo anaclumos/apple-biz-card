@@ -11,6 +11,8 @@
     "nameError": "이름을 알려주시면 정말 좋겠어요!",
     "phoneLabel": "계속 연락하고 싶어요! 연락처를 남겨주시겠어요?",
     "phoneError": "연결을 위해 전화번호가 필요해요!",
+    "phoneSkip": "건너뛰기",
+    "phoneUnskip": "전화번호 추가",
     "placeLabel": "우리는 어디에서 처음 만났나요?",
     "placePlaceholder": "서울 강남역 스타벅스",
     "placeError": "함께했던 장소를 알려주세요!",
@@ -53,7 +55,7 @@
     "invalidPassword": "비밀번호가 맞지 않아요. 다시 확인해 주세요.",
     "missingFields": "계속하려면 날짜와 장소가 모두 필요해요.",
     "saveError": "저장하지 못했어요. 다시 시도해 주세요.",
-    "passFieldsError": "모든 항목(이름, 전화번호, 장소, 날짜)을 채워 주세요.",
+    "passFieldsError": "필수 항목(이름, 장소, 날짜)을 모두 채워 주세요.",
     "passGenerateError": "지금은 명함을 만들 수 없어요. 잠시 후 다시 시도해 주세요."
   },
   "pass": {

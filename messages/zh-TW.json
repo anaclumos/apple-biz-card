@@ -11,6 +11,8 @@
     "nameError": "請輸入您的名字。",
     "phoneLabel": "您的電話號碼是？我也會儲存的！",
     "phoneError": "請輸入您的電話號碼。",
+    "phoneSkip": "略過",
+    "phoneUnskip": "新增電話號碼",
     "placeLabel": "我們在哪裡見面的？",
     "placePlaceholder": "台北信義區星巴克",
     "placeError": "請輸入我們見面的地點。",
@@ -53,7 +55,7 @@
     "invalidPassword": "密碼不匹配，請再試一次。",
     "missingFields": "我們需要日期和地點才能繼續。",
     "saveError": "無法儲存，請再試一次。",
-    "passFieldsError": "請填寫所有資訊：姓名、電話、地點和日期。",
+    "passFieldsError": "請填寫所有必需資訊：姓名、地點和日期。",
     "passGenerateError": "暫時無法建立您的名片，請稍後重試。"
   },
   "pass": {

@@ -11,6 +11,8 @@
     "nameError": "Silakan masukkan nama Anda.",
     "phoneLabel": "Berapa nomor telepon Anda? Saya juga akan menyimpannya!",
     "phoneError": "Silakan masukkan nomor telepon Anda.",
+    "phoneSkip": "Lewati",
+    "phoneUnskip": "Tambah nomor telepon",
     "placeLabel": "Di mana kita bertemu?",
     "placePlaceholder": "Starbucks Jakarta Sudirman",
     "placeError": "Silakan masukkan tempat kita bertemu.",
@@ -53,7 +55,7 @@
     "invalidPassword": "Kata sandi tersebut tidak cocok. Silakan coba lagi.",
     "missingFields": "Kami memerlukan tanggal dan lokasi untuk melanjutkan.",
     "saveError": "Kami tidak dapat menyimpan itu. Silakan coba lagi.",
-    "passFieldsError": "Silakan isi semua bidang: nama, telepon, lokasi, dan tanggal.",
+    "passFieldsError": "Silakan isi semua bidang yang diperlukan: nama, lokasi, dan tanggal.",
     "passGenerateError": "Kami tidak dapat membuat kartu Anda saat ini. Silakan coba lagi."
   },
   "pass": {

@@ -11,6 +11,8 @@
     "nameError": "我们很想知道您的名字！",
     "phoneLabel": "希望能保持联系！可以分享您的电话吗？",
     "phoneError": "我们需要您的电话以便保持联系！",
+    "phoneSkip": "跳过",
+    "phoneUnskip": "添加电话号码",
     "placeLabel": "我们在哪里初次相遇的？",
     "placePlaceholder": "北京国贸星巴克",
     "placeError": "请帮我们回忆一下相遇的地点！",
@@ -53,7 +55,7 @@
     "invalidPassword": "密码不匹配，请再试一次。",
     "missingFields": "我们需要日期和地点才能继续。",
     "saveError": "无法保存，请再试一次。",
-    "passFieldsError": "请填写所有信息：姓名、电话、地点和日期。",
+    "passFieldsError": "请填写所有必需信息：姓名、地点和日期。",
     "passGenerateError": "暂时无法创建您的名片，请稍后重试。"
   },
   "pass": {

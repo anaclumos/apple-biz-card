@@ -11,6 +11,8 @@
     "nameError": "Lütfen adınızı girin.",
     "phoneLabel": "Telefon numaranız nedir? Ben de kaydedeceğim!",
     "phoneError": "Lütfen telefon numaranızı girin.",
+    "phoneSkip": "Atla",
+    "phoneUnskip": "Telefon numarası ekle",
     "placeLabel": "Nerede tanıştık?",
     "placePlaceholder": "İstanbul Taksim Starbucks",
     "placeError": "Lütfen tanıştığımız yeri girin.",
@@ -53,7 +55,7 @@
     "invalidPassword": "Bu şifre eşleşmiyor. Lütfen tekrar deneyin.",
     "missingFields": "Devam etmek için hem tarihe hem de konuma ihtiyacımız var.",
     "saveError": "Bunu kaydedemedik. Lütfen tekrar deneyin.",
-    "passFieldsError": "Lütfen tüm alanları doldurun: isim, telefon, konum ve tarih.",
+    "passFieldsError": "Lütfen tüm gerekli alanları doldurun: isim, konum ve tarih.",
     "passGenerateError": "Kartınızı şu anda oluşturamadık. Lütfen tekrar deneyin."
   },
   "pass": {

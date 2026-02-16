@@ -11,6 +11,8 @@
     "nameError": "¡Nos encantaría saber tu nombre!",
     "phoneLabel": "¡Sigamos en contacto! ¿Podrías compartir tu número?",
     "phoneError": "Para seguir conectados, necesitamos tu número.",
+    "phoneSkip": "Omitir",
+    "phoneUnskip": "Añadir teléfono",
     "placeLabel": "¿Dónde se cruzaron nuestros caminos?",
     "placePlaceholder": "Starbucks en Madrid Gran Vía",
     "placeError": "¡Ayúdanos a recordar dónde nos conocimos!",
@@ -53,7 +55,7 @@
     "invalidPassword": "Esa contraseña no coincide. Por favor, inténtalo de nuevo.",
     "missingFields": "Necesitamos tanto la fecha como la ubicación para continuar.",
     "saveError": "No pudimos guardar eso. Por favor, inténtalo de nuevo.",
-    "passFieldsError": "Por favor, completa todos los campos: nombre, teléfono, ubicación y fecha.",
+    "passFieldsError": "Por favor, completa todos los campos requeridos: nombre, ubicación y fecha.",
     "passGenerateError": "No pudimos crear tu tarjeta en este momento. Por favor, inténtalo de nuevo."
   },
   "pass": {

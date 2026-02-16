@@ -11,6 +11,8 @@
     "nameError": "Nous serions ravis de connaître votre nom !",
     "phoneLabel": "Restons en contact ! Pourriez-vous partager votre numéro ?",
     "phoneError": "Nous avons besoin de votre numéro pour rester connectés.",
+    "phoneSkip": "Passer",
+    "phoneUnskip": "Ajouter un numéro",
     "placeLabel": "Où nos chemins se sont-ils croisés ?",
     "placePlaceholder": "Starbucks à Paris Champs-Élysées",
     "placeError": "Aidez-nous à nous souvenir de notre lieu de rencontre !",
@@ -53,7 +55,7 @@
     "invalidPassword": "Ce mot de passe ne correspond pas. Veuillez réessayer.",
     "missingFields": "Nous avons besoin de la date et du lieu pour continuer.",
     "saveError": "Nous n'avons pas pu enregistrer cela. Veuillez réessayer.",
-    "passFieldsError": "Veuillez remplir tous les champs : nom, téléphone, lieu et date.",
+    "passFieldsError": "Veuillez remplir tous les champs requis : nom, lieu et date.",
     "passGenerateError": "Nous ne pouvons pas créer votre carte pour le moment. Veuillez réessayer."
   },
   "pass": {

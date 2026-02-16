@@ -5,7 +5,7 @@ export const appleBizCard = pgSchema("apple_biz_card");
 export const visitors = appleBizCard.table("visitors", {
   id: uuid("id").defaultRandom().primaryKey(),
   name: text("name").notNull(),
-  phone: text("phone").notNull(),
+  phone: text("phone"),
   meetingPlace: text("meeting_place").notNull(),
   meetingDate: timestamp("meeting_date").notNull().defaultNow(),
   serialNumber: text("serial_number").notNull().unique(),

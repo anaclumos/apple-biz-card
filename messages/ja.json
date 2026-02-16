@@ -11,6 +11,8 @@
     "nameError": "お名前を教えていただけると嬉しいです！",
     "phoneLabel": "これからも連絡を取り合いましょう！番号を教えていただけますか？",
     "phoneError": "つながるために、お電話番号が必要です！",
+    "phoneSkip": "スキップ",
+    "phoneUnskip": "電話番号を追加",
     "placeLabel": "どこで出会ったか覚えていますか？",
     "placePlaceholder": "東京渋谷のスターバックス",
     "placeError": "出会った場所を教えてください！",
@@ -53,7 +55,7 @@
     "invalidPassword": "パスワードが正しくありません。もう一度お試しください。",
     "missingFields": "続行するには日付と場所の両方が必要です。",
     "saveError": "保存できませんでした。もう一度お試しください。",
-    "passFieldsError": "すべての項目（名前、電話番号、場所、日付）を入力してください。",
+    "passFieldsError": "すべての必須項目（名前、場所、日付）を入力してください。",
     "passGenerateError": "現在カードを作成できません。もう一度お試しください。"
   },
   "pass": {

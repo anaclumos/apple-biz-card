@@ -11,6 +11,8 @@
     "nameError": "Vui lòng nhập tên của bạn.",
     "phoneLabel": "Số điện thoại của bạn là gì? Tôi cũng sẽ lưu lại!",
     "phoneError": "Vui lòng nhập số điện thoại.",
+    "phoneSkip": "Bỏ qua",
+    "phoneUnskip": "Thêm số điện thoại",
     "placeLabel": "Chúng ta gặp nhau ở đâu?",
     "placePlaceholder": "Starbucks Quận 1 Hồ Chí Minh",
     "placeError": "Vui lòng nhập nơi chúng ta gặp nhau.",
@@ -53,7 +55,7 @@
     "invalidPassword": "Mật khẩu không khớp. Vui lòng thử lại.",
     "missingFields": "Chúng tôi cần cả ngày và địa điểm để tiếp tục.",
     "saveError": "Không thể lưu thông tin. Vui lòng thử lại.",
-    "passFieldsError": "Vui lòng điền đầy đủ các trường: tên, số điện thoại, địa điểm và ngày.",
+    "passFieldsError": "Vui lòng điền đầy đủ các trường bắt buộc: tên, địa điểm và ngày.",
     "passGenerateError": "Hiện tại không thể tạo thẻ của bạn. Vui lòng thử lại."
   },
   "pass": {

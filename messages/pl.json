@@ -11,6 +11,8 @@
     "nameError": "Bardzo chcielibyśmy poznać Twoje imię!",
     "phoneLabel": "Bądźmy w kontakcie! Czy możesz podać swój numer?",
     "phoneError": "Aby pozostać w kontakcie, potrzebujemy Twojego numeru.",
+    "phoneSkip": "Pomiń",
+    "phoneUnskip": "Dodaj numer telefonu",
     "placeLabel": "Gdzie skrzyżowały się nasze drogi?",
     "placePlaceholder": "Starbucks w Warszawie Centrum",
     "placeError": "Pomóż nam zapamiętać, gdzie się spotkaliśmy!",
@@ -53,7 +55,7 @@
     "invalidPassword": "To hasło jest niepoprawne. Spróbuj ponownie.",
     "missingFields": "Aby kontynuować, potrzebujemy zarówno daty, jak i lokalizacji.",
     "saveError": "Nie udało się zapisać. Spróbuj ponownie.",
-    "passFieldsError": "Proszę wypełnić wszystkie pola: imię, telefon, lokalizacja i data.",
+    "passFieldsError": "Proszę wypełnić wszystkie wymagane pola: imię, lokalizacja i data.",
     "passGenerateError": "Nie udało się teraz stworzyć Twojej wizytówki. Spróbuj ponownie."
   },
   "pass": {

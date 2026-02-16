@@ -11,6 +11,8 @@
     "nameError": "We zouden graag je naam weten!",
     "phoneLabel": "Laten we contact houden! Wil je je nummer delen?",
     "phoneError": "Om verbonden te blijven, hebben we je nummer nodig.",
+    "phoneSkip": "Overslaan",
+    "phoneUnskip": "Telefoonnummer toevoegen",
     "placeLabel": "Waar zijn onze paden gekruist?",
     "placePlaceholder": "Starbucks in Amsterdam Dam",
     "placeError": "Help ons herinneren waar we elkaar ontmoet hebben!",
@@ -53,7 +55,7 @@
     "invalidPassword": "Dat wachtwoord komt niet overeen. Probeer het opnieuw.",
     "missingFields": "We hebben zowel de datum als de locatie nodig om verder te gaan.",
     "saveError": "We konden dat niet opslaan. Probeer het opnieuw.",
-    "passFieldsError": "Vul alle velden in: naam, telefoon, locatie en datum.",
+    "passFieldsError": "Vul alle verplichte velden in: naam, locatie en datum.",
     "passGenerateError": "We konden je kaartje nu niet maken. Probeer het opnieuw."
   },
   "pass": {

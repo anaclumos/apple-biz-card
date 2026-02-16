@@ -11,6 +11,8 @@
     "nameError": "Wir würden uns freuen, Ihren Namen zu erfahren!",
     "phoneLabel": "Lassen Sie uns in Kontakt bleiben! Darf ich um Ihre Nummer bitten?",
     "phoneError": "Um in Verbindung zu bleiben, benötigen wir Ihre Nummer.",
+    "phoneSkip": "Überspringen",
+    "phoneUnskip": "Telefonnummer hinzufügen",
     "placeLabel": "Wo haben sich unsere Wege gekreuzt?",
     "placePlaceholder": "Starbucks am Berlin Alexanderplatz",
     "placeError": "Helfen Sie uns, uns an unseren Treffpunkt zu erinnern!",
@@ -53,7 +55,7 @@
     "invalidPassword": "Dieses Passwort stimmt nicht überein. Bitte versuchen Sie es erneut.",
     "missingFields": "Wir benötigen sowohl das Datum als auch den Ort, um fortzufahren.",
     "saveError": "Wir konnten das nicht speichern. Bitte versuchen Sie es erneut.",
-    "passFieldsError": "Bitte füllen Sie alle Felder aus: Name, Telefon, Ort und Datum.",
+    "passFieldsError": "Bitte füllen Sie alle erforderlichen Felder aus: Name, Ort und Datum.",
     "passGenerateError": "Wir konnten Ihre Karte gerade nicht erstellen. Bitte versuchen Sie es erneut."
   },
   "pass": {

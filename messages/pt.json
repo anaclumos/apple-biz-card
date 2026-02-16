@@ -11,6 +11,8 @@
     "nameError": "Adoraríamos saber o seu nome!",
     "phoneLabel": "Vamos manter contato! Pode partilhar o seu número?",
     "phoneError": "Para continuarmos conectados, precisamos do seu número.",
+    "phoneSkip": "Pular",
+    "phoneUnskip": "Adicionar telefone",
     "placeLabel": "Onde os nossos caminhos se cruzaram?",
     "placePlaceholder": "Starbucks em São Paulo Paulista",
     "placeError": "Ajude-nos a lembrar onde nos conhecemos!",
@@ -53,7 +55,7 @@
     "invalidPassword": "Essa senha não coincide. Por favor, tente novamente.",
     "missingFields": "Precisamos da data e da localização para continuar.",
     "saveError": "Não conseguimos salvar. Por favor, tente novamente.",
-    "passFieldsError": "Por favor, preencha todos os campos: nome, telefone, localização e data.",
+    "passFieldsError": "Por favor, preencha todos os campos obrigatórios: nome, localização e data.",
     "passGenerateError": "Não conseguimos criar o seu cartão agora. Por favor, tente novamente."
   },
   "pass": {

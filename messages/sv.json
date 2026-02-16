@@ -11,6 +11,8 @@
     "nameError": "Vänligen ange ditt namn.",
     "phoneLabel": "Vad är ditt telefonnummer? Jag sparar det också!",
     "phoneError": "Vänligen ange ditt telefonnummer.",
+    "phoneSkip": "Hoppa över",
+    "phoneUnskip": "Lägg till telefonnummer",
     "placeLabel": "Var träffades vi?",
     "placePlaceholder": "Starbucks i Stockholm City",
     "placeError": "Vänligen ange var vi träffades.",
@@ -53,7 +55,7 @@
     "invalidPassword": "Lösenordet stämmer inte. Försök igen.",
     "missingFields": "Vi behöver både datum och plats för att fortsätta.",
     "saveError": "Vi kunde inte spara. Försök igen.",
-    "passFieldsError": "Fyll i alla fält: namn, telefon, plats och datum.",
+    "passFieldsError": "Fyll i alla obligatoriska fält: namn, plats och datum.",
     "passGenerateError": "Vi kunde inte skapa ditt kort just nu. Försök igen."
   },
   "pass": {

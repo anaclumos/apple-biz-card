@@ -53,7 +53,7 @@ function formatDate(date: Date, messages: Messages): string {
 
 async function generatePass(
   name: string,
-  phone: string,
+  phone: string | null,
   meetingPlace: string,
   meetingDateStr: string,
   messages: Messages
@@ -63,7 +63,7 @@ async function generatePass(
 
   await db.insert(visitors).values({
     name,
-    phone,
+    phone: phone || null,
     meetingPlace,
     meetingDate,
     serialNumber,
@@ -117,11 +117,13 @@ async function generatePass(
 
   pass.type = "storeCard";
 
-  pass.secondaryFields.push({
-    key: "phone",
-    label: messages.pass.phoneLabel,
-    value: "+82 10-7332-9837",
-  });
+  if (phone) {
+    pass.secondaryFields.push({
+      key: "phone",
+      label: messages.pass.phoneLabel,
+      value: "+82 10-7332-9837",
+    });
+  }
 
   pass.backFields.push(
     {
@@ -129,11 +131,15 @@ async function generatePass(
       label: messages.pass.emailLabel,
       value: "hey@cho.sh",
     },
-    {
-      key: "phone_full",
-      label: messages.pass.phoneLabel,
-      value: "+82 10-7332-9837",
-    },
+    ...(phone
+      ? [
+          {
+            key: "phone_full",
+            label: messages.pass.phoneLabel,
+            value: "+82 10-7332-9837",
+          },
+        ]
+      : []),
     {
       key: "homepage",
       label: messages.pass.homepageLabel,
@@ -207,7 +213,7 @@ export async function POST(request: NextRequest) {
       meetingDateStr = formData.get("meetingDate") as string | null;
     }
 
-    if (!(name && phone && meetingPlace && meetingDateStr)) {
+    if (!(name && meetingPlace && meetingDateStr)) {
       return NextResponse.json(
         { error: messages.api.passFieldsError },
         { status: 400 }
@@ -216,7 +222,7 @@ export async function POST(request: NextRequest) {
 
     return await generatePass(
       name,
-      phone,
+      phone || null,
       meetingPlace,
       meetingDateStr,
       messages

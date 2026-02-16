@@ -4,8 +4,7 @@ import { Check, ChevronsUpDown, Search } from "lucide-react";
 import { useTranslations } from "next-intl";
 import {
   type ComponentProps,
-  type ElementRef,
-  forwardRef,
+  type Ref,
   useCallback,
   useMemo,
   useState,
@@ -27,30 +26,34 @@ import { Input } from "@/components/ui/input";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { cn } from "@/lib/utils";
 
-const BaseInputComponent = forwardRef<
-  HTMLInputElement,
-  ComponentProps<"input">
->(({ className, ...props }, ref) => (
-  <Input
-    className={cn(
-      "h-14 rounded-s-none rounded-e-xl text-lg",
-      "group-data-[filled]/phone:bg-secondary",
-      className
-    )}
-    {...props}
-    ref={ref}
-  />
-));
-BaseInputComponent.displayName = "BaseInputComponent";
+function BaseInputComponent({
+  className,
+  ref,
+  ...props
+}: ComponentProps<"input"> & { ref?: Ref<HTMLInputElement> }) {
+  return (
+    <Input
+      className={cn(
+        "h-14 rounded-s-none rounded-e-xl text-lg",
+        "group-data-[filled]/phone:bg-secondary",
+        className
+      )}
+      {...props}
+      ref={ref}
+    />
+  );
+}
 
 interface PhoneInputProps extends ComponentProps<typeof PhoneInputPrimitive> {
   filled?: boolean;
 }
 
-const PhoneInput = forwardRef<
-  ElementRef<typeof PhoneInputPrimitive>,
-  PhoneInputProps
->(({ className, onChange, filled, ...props }, ref) => {
+function PhoneInput({
+  className,
+  onChange,
+  filled,
+  ...props
+}: PhoneInputProps) {
   return (
     <div
       className="group/phone relative flex flex-1"
@@ -61,8 +64,7 @@ const PhoneInput = forwardRef<
         countrySelectComponent={CountrySelect}
         flagComponent={FlagComponent}
         inputComponent={BaseInputComponent}
-        onChange={(value) => onChange?.(value || "")}
-        ref={ref}
+        onChange={(value) => onChange?.(value)}
         {...props}
       />
       {filled && (
@@ -70,8 +72,7 @@ const PhoneInput = forwardRef<
       )}
     </div>
   );
-});
-PhoneInput.displayName = "PhoneInput";
+}
 
 interface CountrySelectOption {
   label: string;

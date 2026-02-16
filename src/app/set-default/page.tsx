@@ -32,27 +32,8 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
+import { dateToString, getTodayString, stringToDate } from "@/lib/date";
 import { cn } from "@/lib/utils";
-
-function getTodayString(): string {
-  const today = new Date();
-  const year = today.getFullYear();
-  const month = String(today.getMonth() + 1).padStart(2, "0");
-  const day = String(today.getDate()).padStart(2, "0");
-  return `${year}-${month}-${day}`;
-}
-
-function dateToString(date: Date): string {
-  const year = date.getFullYear();
-  const month = String(date.getMonth() + 1).padStart(2, "0");
-  const day = String(date.getDate()).padStart(2, "0");
-  return `${year}-${month}-${day}`;
-}
-
-function stringToDate(str: string): Date {
-  const [year, month, day] = str.split("-").map(Number);
-  return new Date(year, month - 1, day);
-}
 
 export default function SetDefaultPage() {
   const t = useTranslations("setDefault");
@@ -122,11 +103,11 @@ export default function SetDefaultPage() {
   }
 
   return (
-    <div className="flex min-h-screen w-full items-center justify-center bg-[#1d251b] p-4 font-sans text-[#c8e6c0]">
-      <Card className="w-full max-w-md border-[#3d4f38] bg-[#283324] shadow-2xl shadow-black/50">
+    <div className="flex min-h-screen w-full items-center justify-center bg-background p-4 font-sans text-foreground-light">
+      <Card className="w-full max-w-md shadow-2xl shadow-black/50">
         <CardHeader>
-          <CardTitle className="text-[#c8e6c0]">{t("title")}</CardTitle>
-          <CardDescription className="text-[#80be7a]">
+          <CardTitle className="text-foreground-light">{t("title")}</CardTitle>
+          <CardDescription className="text-foreground">
             {t("description")}
           </CardDescription>
         </CardHeader>
@@ -138,34 +119,28 @@ export default function SetDefaultPage() {
                 name="eventDate"
                 render={({ field }) => (
                   <FormItem className="flex flex-col">
-                    <FormLabel className="text-[#c8e6c0]">
-                      {t("dateLabel")}
-                    </FormLabel>
+                    <FormLabel>{t("dateLabel")}</FormLabel>
                     <Popover>
                       <PopoverTrigger asChild>
                         <FormControl>
                           <Button
                             className={cn(
-                              "w-full border-[#3d4f38] bg-[#232b20] pl-3 text-left font-normal text-[#80be7a] hover:bg-[#3d4f38] hover:text-[#c8e6c0]",
+                              "w-full pl-3 text-left font-normal",
                               !field.value && "text-muted-foreground"
                             )}
-                            variant={"outline"}
+                            variant="outline"
                           >
                             {field.value ? (
                               formatDateForDisplay(field.value)
                             ) : (
                               <span>{t("datePlaceholder")}</span>
                             )}
-                            <CalendarIcon className="ml-auto h-4 w-4 opacity-50" />
+                            <CalendarIcon className="ml-auto size-4 opacity-50" />
                           </Button>
                         </FormControl>
                       </PopoverTrigger>
-                      <PopoverContent
-                        align="start"
-                        className="w-auto border-[#3d4f38] bg-[#283324] p-0"
-                      >
+                      <PopoverContent align="start" className="w-auto p-0">
                         <Calendar
-                          className="bg-[#283324] text-[#c8e6c0] [&_button[data-selected]]:bg-[#80be7a] [&_button[data-selected]]:text-[#1d251b]"
                           disabled={(date) => date < new Date("1900-01-01")}
                           initialFocus
                           mode="single"
@@ -189,15 +164,9 @@ export default function SetDefaultPage() {
                 name="place"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="text-[#c8e6c0]">
-                      {t("placeLabel")}
-                    </FormLabel>
+                    <FormLabel>{t("placeLabel")}</FormLabel>
                     <FormControl>
-                      <Input
-                        placeholder={t("placePlaceholder")}
-                        {...field}
-                        className="border-[#3d4f38] bg-[#232b20] text-[#80be7a] placeholder:text-[#4a6545]"
-                      />
+                      <Input placeholder={t("placePlaceholder")} {...field} />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -208,27 +177,20 @@ export default function SetDefaultPage() {
                 name="password"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="text-[#c8e6c0]">
-                      {t("passwordLabel")}
-                    </FormLabel>
+                    <FormLabel>{t("passwordLabel")}</FormLabel>
                     <FormControl>
                       <Input
                         placeholder={t("passwordPlaceholder")}
                         type="password"
                         {...field}
-                        className="border-[#3d4f38] bg-[#232b20] text-[#80be7a] placeholder:text-[#4a6545]"
                       />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
                 )}
               />
-              <Button
-                className="w-full bg-[#80be7a] text-[#1d251b] hover:bg-[#9fd498]"
-                disabled={isLoading}
-                type="submit"
-              >
-                {isLoading && <Loader2 className="mr-2 h-4 w-4 animate-spin" />}
+              <Button className="w-full" disabled={isLoading} type="submit">
+                {isLoading && <Loader2 className="mr-2 size-4 animate-spin" />}
                 {t("submitButton")}
               </Button>
             </form>

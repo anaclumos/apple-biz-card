@@ -1,15 +1,9 @@
 import { type NextRequest, NextResponse } from "next/server";
 import { db } from "@/db";
 import { defaultPlaces } from "@/db/schema";
+import { env } from "@/env";
 import { getLocaleFromAcceptLanguage } from "@/lib/locale";
-import enMessages from "../../../../messages/en.json";
-import koMessages from "../../../../messages/ko.json";
-
-type Messages = typeof koMessages;
-
-function getMessages(locale: string): Messages {
-  return locale === "en" ? enMessages : koMessages;
-}
+import { getMessages } from "@/lib/messages.server";
 
 export async function POST(request: NextRequest) {
   const acceptLanguage = request.headers.get("accept-language") || "";
@@ -20,14 +14,7 @@ export async function POST(request: NextRequest) {
     const body = await request.json();
     const { password, eventDate, place } = body;
 
-    if (!process.env.ADMIN_PASSWORD) {
-      return NextResponse.json(
-        { error: messages.api.serverError },
-        { status: 500 }
-      );
-    }
-
-    if (password !== process.env.ADMIN_PASSWORD) {
+    if (password !== env.ADMIN_PASSWORD) {
       return NextResponse.json(
         { error: messages.api.invalidPassword },
         { status: 401 }

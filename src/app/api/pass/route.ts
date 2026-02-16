@@ -5,27 +5,29 @@ import { type NextRequest, NextResponse } from "next/server";
 import { PKPass } from "passkit-generator";
 import { db } from "@/db";
 import { visitors } from "@/db/schema";
+import { env } from "@/env";
 import { getLocaleFromAcceptLanguage } from "@/lib/locale";
-import enMessages from "../../../../messages/en.json";
-import koMessages from "../../../../messages/ko.json";
-
-type Messages = typeof koMessages;
-
-function getMessages(locale: string): Messages {
-  return locale === "en" ? enMessages : koMessages;
-}
+import { getMessages, type Messages } from "@/lib/messages.server";
 
 function decodeBase64(base64: string): Buffer {
   return Buffer.from(base64, "base64");
 }
 
-function getPhotoBuffer(size: "" | "@2x" | "@3x"): Buffer {
-  return readFileSync(join(process.cwd(), "assets", `photo${size}.png`));
-}
+type ImageSize = "" | "@2x" | "@3x";
 
-function getStripBuffer(size: "" | "@2x" | "@3x"): Buffer {
-  return readFileSync(join(process.cwd(), "assets", `strip${size}.png`));
-}
+const assetsDir = join(process.cwd(), "assets");
+
+const photoBuffers: Record<ImageSize, Buffer> = {
+  "": readFileSync(join(assetsDir, "photo.png")),
+  "@2x": readFileSync(join(assetsDir, "photo@2x.png")),
+  "@3x": readFileSync(join(assetsDir, "photo@3x.png")),
+};
+
+const stripBuffers: Record<ImageSize, Buffer> = {
+  "": readFileSync(join(assetsDir, "strip.png")),
+  "@2x": readFileSync(join(assetsDir, "strip@2x.png")),
+  "@3x": readFileSync(join(assetsDir, "strip@3x.png")),
+};
 
 function decodeBase64ToPem(
   base64: string,
@@ -69,43 +71,36 @@ async function generatePass(
     serialNumber,
   });
 
-  const certBase64 = process.env.PASS_CERTIFICATE_PEM_BASE64;
-  const keyBase64 = process.env.PASS_KEY_PEM_BASE64;
-  const wwdrBase64 = process.env.WWDR_CERTIFICATE_PEM_BASE64;
-  const passTypeId = process.env.PASS_TYPE_IDENTIFIER;
-  const teamId = process.env.TEAM_IDENTIFIER;
-
-  if (!(certBase64 && keyBase64 && wwdrBase64 && passTypeId && teamId)) {
-    throw new Error("Missing required environment variables");
-  }
-
-  const signerCert = decodeBase64(certBase64);
-  const signerKey = decodeBase64(keyBase64);
-  const wwdr = decodeBase64ToPem(wwdrBase64, "CERTIFICATE");
+  const signerCert = decodeBase64(env.PASS_CERTIFICATE_PEM_BASE64);
+  const signerKey = decodeBase64(env.PASS_KEY_PEM_BASE64);
+  const wwdr = decodeBase64ToPem(
+    env.WWDR_CERTIFICATE_PEM_BASE64,
+    "CERTIFICATE"
+  );
 
   const pass = new PKPass(
     {
-      "icon.png": getPhotoBuffer(""),
-      "icon@2x.png": getPhotoBuffer("@2x"),
-      "icon@3x.png": getPhotoBuffer("@3x"),
-      "logo.png": getPhotoBuffer(""),
-      "logo@2x.png": getPhotoBuffer("@2x"),
-      "logo@3x.png": getPhotoBuffer("@3x"),
-      "strip.png": getStripBuffer(""),
-      "strip@2x.png": getStripBuffer("@2x"),
-      "strip@3x.png": getStripBuffer("@3x"),
+      "icon.png": photoBuffers[""],
+      "icon@2x.png": photoBuffers["@2x"],
+      "icon@3x.png": photoBuffers["@3x"],
+      "logo.png": photoBuffers[""],
+      "logo@2x.png": photoBuffers["@2x"],
+      "logo@3x.png": photoBuffers["@3x"],
+      "strip.png": stripBuffers[""],
+      "strip@2x.png": stripBuffers["@2x"],
+      "strip@3x.png": stripBuffers["@3x"],
     },
     {
       wwdr,
       signerCert,
       signerKey,
-      signerKeyPassphrase: process.env.PASS_KEY_PASSPHRASE || undefined,
+      signerKeyPassphrase: env.PASS_KEY_PASSPHRASE,
     },
     {
       formatVersion: 1,
-      passTypeIdentifier: passTypeId,
+      passTypeIdentifier: env.PASS_TYPE_IDENTIFIER,
       serialNumber,
-      teamIdentifier: teamId,
+      teamIdentifier: env.TEAM_IDENTIFIER,
       organizationName: messages.pass.organizationName,
       description: messages.pass.description,
       logoText: "cho.sh",

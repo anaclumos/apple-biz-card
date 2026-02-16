@@ -37,28 +37,9 @@ import {
 import { Input } from "@/components/ui/input";
 import { PhoneInput } from "@/components/ui/phone-input";
 import { withAppleLogo } from "@/lib/apple-logo";
+import { dateToString, getTodayString, stringToDate } from "@/lib/date";
 import { getCountryFromLocale } from "@/lib/phone";
 import { cn } from "@/lib/utils";
-
-function getTodayString(): string {
-  const today = new Date();
-  const year = today.getFullYear();
-  const month = String(today.getMonth() + 1).padStart(2, "0");
-  const day = String(today.getDate()).padStart(2, "0");
-  return `${year}-${month}-${day}`;
-}
-
-function dateToString(date: Date): string {
-  const year = date.getFullYear();
-  const month = String(date.getMonth() + 1).padStart(2, "0");
-  const day = String(date.getDate()).padStart(2, "0");
-  return `${year}-${month}-${day}`;
-}
-
-function stringToDate(str: string): Date {
-  const [year, month, day] = str.split("-").map(Number);
-  return new Date(year, month - 1, day);
-}
 
 const KAKAOTALK_REGEX = /(?:iphone|ipad|android).* kakaotalk/i;
 const LINE_REGEX = /(?:iphone|ipad|android).* line\//i;

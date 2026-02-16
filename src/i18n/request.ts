@@ -1,36 +1,10 @@
 import { cookies, headers } from "next/headers";
 import { getRequestConfig } from "next-intl/server";
-
-const SUPPORTED_LOCALES = [
-  "en",
-  "ko",
-  "ja",
-  "zh-CN",
-  "zh-TW",
-  "es",
-  "fr",
-  "de",
-  "pt",
-  "it",
-  "ru",
-  "ar",
-  "hi",
-  "nl",
-  "pl",
-  "tr",
-  "vi",
-  "th",
-  "id",
-  "sv",
-] as const;
-
-type SupportedLocale = (typeof SUPPORTED_LOCALES)[number];
-
-const DEFAULT_LOCALE: SupportedLocale = "en";
-
-function isSupported(locale: string): locale is SupportedLocale {
-  return SUPPORTED_LOCALES.includes(locale as SupportedLocale);
-}
+import {
+  DEFAULT_LOCALE,
+  isSupported,
+  type SupportedLocale,
+} from "@/lib/locales";
 
 function parseAcceptLanguage(header: string): SupportedLocale {
   const languages = header

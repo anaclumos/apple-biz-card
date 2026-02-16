@@ -37,7 +37,7 @@ export default async function RootLayout({ children }: Props) {
           rel="stylesheet"
         />
       </head>
-      <body className="bg-[#1d251b] antialiased">
+      <body className="bg-background antialiased">
         <NextIntlClientProvider messages={messages}>
           <NuqsAdapter>{children}</NuqsAdapter>
           <Toaster />

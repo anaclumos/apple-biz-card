@@ -23,9 +23,9 @@ function Toaster({ ...props }: ToasterProps) {
       theme="dark"
       toastOptions={{
         style: {
-          background: "#283324",
-          border: "1px solid #3d4f38",
-          color: "#80be7a",
+          background: "var(--card)",
+          border: "1px solid var(--border)",
+          color: "var(--foreground)",
         },
       }}
       {...props}

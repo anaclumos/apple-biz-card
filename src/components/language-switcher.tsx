@@ -13,30 +13,8 @@ import {
   DrawerTrigger,
 } from "@/components/ui/drawer";
 import { ScrollArea } from "@/components/ui/scroll-area";
+import { LOCALES } from "@/lib/locales";
 import { cn } from "@/lib/utils";
-
-const LANGUAGES = [
-  { code: "en", label: "English", flag: "🇺🇸" },
-  { code: "ko", label: "한국어", flag: "🇰🇷" },
-  { code: "ja", label: "日本語", flag: "🇯🇵" },
-  { code: "zh-CN", label: "简体中文", flag: "🇨🇳" },
-  { code: "zh-TW", label: "繁體中文", flag: "🇹🇼" },
-  { code: "es", label: "Español", flag: "🇪🇸" },
-  { code: "fr", label: "Français", flag: "🇫🇷" },
-  { code: "de", label: "Deutsch", flag: "🇩🇪" },
-  { code: "pt", label: "Português", flag: "🇧🇷" },
-  { code: "it", label: "Italiano", flag: "🇮🇹" },
-  { code: "ru", label: "Русский", flag: "🇷🇺" },
-  { code: "ar", label: "العربية", flag: "🇸🇦" },
-  { code: "hi", label: "हिन्दी", flag: "🇮🇳" },
-  { code: "nl", label: "Nederlands", flag: "🇳🇱" },
-  { code: "pl", label: "Polski", flag: "🇵🇱" },
-  { code: "tr", label: "Türkçe", flag: "🇹🇷" },
-  { code: "vi", label: "Tiếng Việt", flag: "🇻🇳" },
-  { code: "th", label: "ไทย", flag: "🇹🇭" },
-  { code: "id", label: "Indonesia", flag: "🇮🇩" },
-  { code: "sv", label: "Svenska", flag: "🇸🇪" },
-] as const;
 
 export function LanguageSwitcher() {
   const t = useTranslations("common");
@@ -47,7 +25,7 @@ export function LanguageSwitcher() {
   );
 
   const currentLang =
-    LANGUAGES.find((lang) => lang.code === locale) || LANGUAGES[0];
+    LOCALES.find((lang) => lang.code === locale) || LOCALES[0];
 
   const selectLanguage = (code: string) => {
     if (code !== locale) {
@@ -74,7 +52,7 @@ export function LanguageSwitcher() {
         </DrawerHeader>
         <ScrollArea className="h-[60vh] px-4 pb-8">
           <div className="flex flex-col gap-1 pr-4">
-            {LANGUAGES.map((lang) => (
+            {LOCALES.map((lang) => (
               <button
                 className={cn(
                   "flex w-full items-center gap-4 rounded-xl px-4 py-3 text-left transition-all",
